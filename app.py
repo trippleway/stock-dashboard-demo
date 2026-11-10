@@ -686,8 +686,12 @@ def render_overview(data: dict[str, Any]) -> None:
     )
     options = display["Ticker"].astype(str).tolist()
     if options:
-        choice = st.selectbox("Select a stock for the full analysis", options)
-        if st.button("Open stock analysis"):
+        choice = st.selectbox(
+            "Select a stock for the full analysis",
+            options,
+            key="overview_pick",
+        )
+        if st.button("Open stock analysis", key="overview_open"):
             st.session_state["nav_page"] = "Stock Deep Dive"
             st.session_state["deep_ticker"] = choice
             st.rerun()
@@ -855,16 +859,25 @@ def main() -> None:
             st.caption(f"Composite weights: {text}.")
         st.caption("A higher score is a stronger reading on that dimension, not a predicted return.")
     _banner(label, data["manifest"])
-    if page == "Daily Picks":
-        render_daily(data)
-    elif page == "Stock Deep Dive":
-        render_deep(data)
-    elif page == "Universe Overview":
-        render_overview(data)
-    else:
-        render_performance(data)
-    st.divider()
-    st.caption("Research snapshot only. Not investment advice. A failed daily refresh leaves this baseline in place.")
+    # One block per page. A new container key removes the previous page's
+    # tabs, charts, and selectbox instead of leaving them beside the new heading.
+    page_key = {
+        "Daily Picks": "daily",
+        "Stock Deep Dive": "deep",
+        "Universe Overview": "overview",
+        "Strategy Performance": "performance",
+    }.get(page, "performance")
+    with st.container(key=f"page-body-{page_key}"):
+        if page == "Daily Picks":
+            render_daily(data)
+        elif page == "Stock Deep Dive":
+            render_deep(data)
+        elif page == "Universe Overview":
+            render_overview(data)
+        else:
+            render_performance(data)
+        st.divider()
+        st.caption("Research snapshot only. Not investment advice. A failed daily refresh leaves this baseline in place.")
 
 
 if __name__ == "__main__":
