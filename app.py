@@ -313,8 +313,12 @@ def render_daily(data: dict[str, Any]) -> None:
     st.title("Daily picks")
     daily = data["daily"]
     market = daily.get("market_overview") if isinstance(daily.get("market_overview"), dict) else {}
+    pick_date = str(daily.get("date") or "2026-11-07")
+    price_as_of = str(data["manifest"].get("as_of") or pick_date)
     st.caption(
-        f"Date: {daily.get('date', '2026-11-07')} · "
+        f"Prices refresh daily (as of {price_as_of}); picks, news, sentiment, and forecasts are carried forward from {pick_date}."
+    )
+    st.caption(
         f"SPY {_price(market.get('spy_price'))} ({_pct(market.get('spy_change_pct'), 2)}) · "
         f"analyzed {market.get('total_analyzed', '—')}, passed filter {market.get('passed_filter', '—')}"
     )
