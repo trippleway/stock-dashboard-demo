@@ -843,6 +843,31 @@ h1 {font-size:24px !important;}
     )
 
 
+def render_active_page(page: str, data: dict[str, Any], snapshot_label: str) -> None:
+    """Render exactly one page for this script run.
+
+    The sidebar radio is the only page selector. The other page functions are
+    not called, and this function does not keep the previous page in a
+    container.
+
+    Args:
+        page: Selected page name from the sidebar radio.
+        data: Parsed snapshot used by every page.
+        snapshot_label: ``latest`` or ``baseline``.
+    """
+    _banner(snapshot_label, data["manifest"])
+    if page == "Daily Picks":
+        render_daily(data)
+    elif page == "Stock Deep Dive":
+        render_deep(data)
+    elif page == "Universe Overview":
+        render_overview(data)
+    elif page == "Strategy Performance":
+        render_performance(data)
+    st.divider()
+    st.caption("Research snapshot only. Not investment advice. A failed daily refresh leaves this baseline in place.")
+
+
 def main() -> None:
     """Dashboard entry point."""
     st.set_page_config(page_title="US Stock Analysis Dashboard", page_icon="📈", layout="wide")
@@ -858,26 +883,7 @@ def main() -> None:
             text = ", ".join(f"{key} {float(value):.0%}" for key, value in weights.items())
             st.caption(f"Composite weights: {text}.")
         st.caption("A higher score is a stronger reading on that dimension, not a predicted return.")
-    _banner(label, data["manifest"])
-    # One block per page. A new container key removes the previous page's
-    # tabs, charts, and selectbox instead of leaving them beside the new heading.
-    page_key = {
-        "Daily Picks": "daily",
-        "Stock Deep Dive": "deep",
-        "Universe Overview": "overview",
-        "Strategy Performance": "performance",
-    }.get(page, "performance")
-    with st.container(key=f"page-body-{page_key}"):
-        if page == "Daily Picks":
-            render_daily(data)
-        elif page == "Stock Deep Dive":
-            render_deep(data)
-        elif page == "Universe Overview":
-            render_overview(data)
-        else:
-            render_performance(data)
-        st.divider()
-        st.caption("Research snapshot only. Not investment advice. A failed daily refresh leaves this baseline in place.")
+    render_active_page(page, data, label)
 
 
 if __name__ == "__main__":
