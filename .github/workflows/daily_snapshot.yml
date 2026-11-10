@@ -7,7 +7,7 @@ name: Daily public snapshot
 on:
   schedule:
     # 15:00 UTC is after the 09:30 US cash open in both EST and EDT.
-    - cron: "0 15 * * 1-5"
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 permissions:
