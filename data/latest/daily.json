@@ -4,7 +4,7 @@
     {
       "ticker": "INTU",
       "name": "Intuit Inc.",
-      "current_price": 341.5,
+      "current_price": 337.2850036621094,
       "sector": "ai_software",
       "technical": {
         "total_score": 70.5,
@@ -419,7 +419,7 @@
         "Valuation looks cheap, upside +55.8%",
         "Profitability is strong",
         "In a peer group with a favorable industry outlook",
-        "✓ Still 55.8% below fair value"
+        "\u2713 Still 55.8% below fair value"
       ],
       "risk_factors": [],
       "entry_price": {
@@ -462,7 +462,7 @@
     {
       "ticker": "LRCX",
       "name": "Lam Research Corporation",
-      "current_price": 200.44,
+      "current_price": 221.7449951171875,
       "sector": "semiconductor",
       "technical": {
         "total_score": 55.25,
@@ -765,7 +765,7 @@
             "weight": 0.7
           },
           {
-            "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market",
+            "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today\u2019s Market",
             "publisher": "Barrons.com",
             "link": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo",
             "published_at": "2026-11-06 16:28:00",
@@ -785,7 +785,7 @@
             "weight": 0.7
           },
           {
-            "title": "Own a Semiconductor ETF? Lam Research’s Buyback Move Affects You",
+            "title": "Own a Semiconductor ETF? Lam Research\u2019s Buyback Move Affects You",
             "publisher": "24/7 Wall St.",
             "link": "https://247wallst.com/investing/etf/2026/11/06/own-a-semiconductor-etf-lam-researchs-buyback-move-affects-you/",
             "published_at": "2026-11-06 15:03:09",
@@ -805,7 +805,7 @@
             "weight": 0.7
           },
           {
-            "title": "Investing.com’s stocks of the week",
+            "title": "Investing.com\u2019s stocks of the week",
             "publisher": "Investing.com",
             "link": "https://finance.yahoo.com/markets/stocks/articles/investing-com-stocks-week-191819455.html",
             "published_at": "2026-11-06 14:18:19",
@@ -827,7 +827,7 @@
             "weight": 1.0
           },
           {
-            "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today’s Market",
+            "title": "Nvidia, Intel, Tesla, AMD, Coherent, Lam Research, Moderna, and More Stocks That Explain Today\u2019s Market",
             "publisher": "Barrons.com",
             "link": "https://www.barrons.com/articles/stock-movers-ddbd1841?siteid=yhoof2&yptr=yahoo",
             "published_at": "2026-11-06 16:28:00",
@@ -837,7 +837,7 @@
             "weight": 0.7
           },
           {
-            "title": "Own a Semiconductor ETF? Lam Research’s Buyback Move Affects You",
+            "title": "Own a Semiconductor ETF? Lam Research\u2019s Buyback Move Affects You",
             "publisher": "24/7 Wall St.",
             "link": "https://247wallst.com/investing/etf/2026/11/06/own-a-semiconductor-etf-lam-researchs-buyback-move-affects-you/",
             "published_at": "2026-11-06 15:03:09",
@@ -878,7 +878,7 @@
         "Valuation looks cheap, upside +40.2%",
         "Profitability is strong",
         "In a peer group with a favorable industry outlook",
-        "✓ Still 40.2% below fair value"
+        "\u2713 Still 40.2% below fair value"
       ],
       "risk_factors": [],
       "entry_price": {
@@ -921,7 +921,7 @@
     {
       "ticker": "APP",
       "name": "AppLovin Corporation",
-      "current_price": 391.22,
+      "current_price": 385.30999755859375,
       "sector": "ai_software",
       "technical": {
         "total_score": 64.5,
@@ -1174,7 +1174,7 @@
         "negative_count": 4,
         "analyzed_news": [
           {
-            "title": "AppLovin CEO Says the Business Can “Compound at Roughly 30%” a Year for the Long Term",
+            "title": "AppLovin CEO Says the Business Can \u201cCompound at Roughly 30%\u201d a Year for the Long Term",
             "publisher": "TIKR",
             "link": "https://www.tikr.com/blog/applovin-ceo-says-the-business-can-compound-at-roughly-30-a-year-for-the-long-term?ref=yahoofinance&tlnk=yf-261106-mxc582qr",
             "published_at": "2026-11-06 15:15:46",
@@ -1234,7 +1234,7 @@
             "weight": 0.7
           },
           {
-            "title": "Nvidia, Micron, Intel, Sandisk, Palantir, AppLovin, Qualcomm, and More Stocks That Explain Today’s Market",
+            "title": "Nvidia, Micron, Intel, Sandisk, Palantir, AppLovin, Qualcomm, and More Stocks That Explain Today\u2019s Market",
             "publisher": "Barrons.com",
             "link": "https://www.barrons.com/articles/stock-movers-8b39c82b?siteid=yhoof2&yptr=yahoo",
             "published_at": "2026-11-05 17:12:00",
@@ -1254,7 +1254,7 @@
             "weight": 0.7
           },
           {
-            "title": "AI Isn’t All Bad Right Now. Here Are 2 Stocks Going the Other Way.",
+            "title": "AI Isn\u2019t All Bad Right Now. Here Are 2 Stocks Going the Other Way.",
             "publisher": "Barrons.com",
             "link": "https://www.barrons.com/articles/applovin-unity-stock-ai-advertising-cc3030fe?siteid=yhoof2&yptr=yahoo",
             "published_at": "2026-11-05 16:27:00",
@@ -1286,7 +1286,7 @@
             "weight": 0.7
           },
           {
-            "title": "Nvidia, Micron, Intel, Sandisk, Palantir, AppLovin, Qualcomm, and More Stocks That Explain Today’s Market",
+            "title": "Nvidia, Micron, Intel, Sandisk, Palantir, AppLovin, Qualcomm, and More Stocks That Explain Today\u2019s Market",
             "publisher": "Barrons.com",
             "link": "https://www.barrons.com/articles/stock-movers-8b39c82b?siteid=yhoof2&yptr=yahoo",
             "published_at": "2026-11-05 17:12:00",
@@ -1316,7 +1316,7 @@
             "weight": 0.7
           },
           {
-            "title": "AI Isn’t All Bad Right Now. Here Are 2 Stocks Going the Other Way.",
+            "title": "AI Isn\u2019t All Bad Right Now. Here Are 2 Stocks Going the Other Way.",
             "publisher": "Barrons.com",
             "link": "https://www.barrons.com/articles/applovin-unity-stock-ai-advertising-cc3030fe?siteid=yhoof2&yptr=yahoo",
             "published_at": "2026-11-05 16:27:00",
@@ -1337,7 +1337,7 @@
         "Valuation looks cheap, upside +49.9%",
         "Profitability is strong",
         "In a peer group with a favorable industry outlook",
-        "✓ Still 49.9% below fair value"
+        "\u2713 Still 49.9% below fair value"
       ],
       "risk_factors": [
         "RSI is overbought; a short-term pullback is a risk",
