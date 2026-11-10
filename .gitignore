@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.streamlit/secrets.toml
+data/_latest_previous*
+data/_latest_staging*

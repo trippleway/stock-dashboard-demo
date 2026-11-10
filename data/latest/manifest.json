@@ -1,0 +1,6 @@
+{
+  "snapshot_id": "latest",
+  "as_of": "2026-11-07",
+  "source": "Committed 2026-11-07 daily picks, track record, and local OHLCV cache",
+  "notes": "Initial latest copy of the 2026-11-07 baseline so the first deploy opens without a refresh."
+}

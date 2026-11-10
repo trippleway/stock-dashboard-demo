@@ -1,0 +1,6 @@
+{
+  "snapshot_id": "baseline",
+  "as_of": "2026-11-07",
+  "source": "Committed 2026-11-07 daily picks, track record, and local OHLCV cache",
+  "notes": "Baseline is never overwritten by the daily refresh. News, profiles, and Prophet paths exist only where the snapshot stored them."
+}
