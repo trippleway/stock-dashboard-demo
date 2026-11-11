@@ -4,7 +4,7 @@
     {
       "ticker": "INTU",
       "name": "Intuit Inc.",
-      "current_price": 337.2850036621094,
+      "current_price": 342.6400146484375,
       "sector": "ai_software",
       "technical": {
         "total_score": 70.5,
@@ -462,7 +462,7 @@
     {
       "ticker": "LRCX",
       "name": "Lam Research Corporation",
-      "current_price": 221.7449951171875,
+      "current_price": 235.8800048828125,
       "sector": "semiconductor",
       "technical": {
         "total_score": 55.25,
@@ -921,7 +921,7 @@
     {
       "ticker": "APP",
       "name": "AppLovin Corporation",
-      "current_price": 385.30999755859375,
+      "current_price": 404.7699890136719,
       "sector": "ai_software",
       "technical": {
         "total_score": 64.5,

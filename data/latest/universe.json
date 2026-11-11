@@ -25,15 +25,15 @@
       "volume_score": null,
       "news_score": 37.97,
       "passes_filter": false,
-      "current_price": 167.99000549316406,
+      "current_price": 173.72999572753906,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 4056454529024,
-        "trailingPE": 21.237675,
-        "forwardPE": 10.546797,
-        "priceToBook": 17.714859,
+        "marketCap": 4195058188288,
+        "trailingPE": 21.963337,
+        "forwardPE": 10.92035,
+        "priceToBook": 18.320152,
         "returnOnEquity": 1.17211,
         "profitMargins": 0.63663,
         "grossMargins": 0.74674004,
@@ -41,7 +41,7 @@
         "earningsGrowth": 1.278,
         "debtToEquity": 16.971,
         "currentRatio": 4.589,
-        "targetMeanPrice": 325.7772,
+        "targetMeanPrice": 319.98773,
         "recommendationMean": 1.32258
       },
       "profile": {
@@ -303,10 +303,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 183.0060028076172,
-        "ma20": 206.13800201416015,
-        "ma60": 217.75600102742513,
-        "ma200": 204.5352001953125
+        "ma5": 177.90599975585937,
+        "ma20": 203.80450134277345,
+        "ma60": 217.00416742960613,
+        "ma200": 204.46575012207032
       }
     },
     {
@@ -324,15 +324,15 @@
       "volume_score": null,
       "news_score": 42.18,
       "passes_filter": false,
-      "current_price": 512.280029296875,
+      "current_price": 552.9000244140625,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 840183971840,
-        "trailingPE": 109.46155,
-        "forwardPE": 28.959602,
-        "priceToBook": 12.284598,
+        "marketCap": 906804330496,
+        "trailingPE": 118.14104,
+        "forwardPE": 31.255884,
+        "priceToBook": 13.258676,
         "returnOnEquity": 0.1196,
         "profitMargins": 0.16769,
         "grossMargins": 0.56,
@@ -341,7 +341,7 @@
         "debtToEquity": 13.469,
         "currentRatio": 2.725,
         "targetMeanPrice": 657.4875,
-        "recommendationMean": 1.37736
+        "recommendationMean": 1.39623
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Advanced Micro Devices, Inc. (AMD), Layer 1 Infrastructure.",
@@ -530,10 +530,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 472.6160034179687,
-        "ma20": 518.3524963378907,
-        "ma60": 535.8099985758464,
-        "ma200": 418.52684997558595
+        "ma5": 486.0260070800781,
+        "ma20": 517.6029968261719,
+        "ma60": 537.0006652832031,
+        "ma200": 420.04585006713864
       }
     },
     {
@@ -551,15 +551,15 @@
       "volume_score": null,
       "news_score": 47.45,
       "passes_filter": true,
-      "current_price": 328.6700134277344,
+      "current_price": 345.2200012207031,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 1568972734464,
-        "trailingPE": 41.97637,
-        "forwardPE": 16.885374,
-        "priceToBook": 15.739632,
+        "marketCap": 1647952527360,
+        "trailingPE": 44.0894,
+        "forwardPE": 17.735357,
+        "priceToBook": 16.531942,
         "returnOnEquity": 0.44245,
         "profitMargins": 0.42944,
         "grossMargins": 0.75515,
@@ -757,10 +757,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 311.77000732421874,
-        "ma20": 328.9304992675781,
-        "ma60": 349.3338338216146,
-        "ma200": 367.107950592041
+        "ma5": 316.3800048828125,
+        "ma20": 329.044499206543,
+        "ma60": 348.80933380126953,
+        "ma200": 367.18665054321286
       }
     },
     {
@@ -778,15 +778,15 @@
       "volume_score": null,
       "news_score": 32.09,
       "passes_filter": false,
-      "current_price": 151.93499755859375,
+      "current_price": 168.8000030517578,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 136705925120,
-        "trailingPE": 49.97862,
-        "forwardPE": 20.671711,
-        "priceToBook": 7.188786,
+        "marketCap": 151880482816,
+        "trailingPE": 55.526318,
+        "forwardPE": 22.9663,
+        "priceToBook": 7.986752,
         "returnOnEquity": 0.16523,
         "profitMargins": 0.27934998,
         "grossMargins": 0.52216,
@@ -984,10 +984,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 148.21700134277344,
-        "ma20": 205.84024963378906,
-        "ma60": 231.989249420166,
-        "ma200": 185.77577499389648
+        "ma5": 150.50800170898438,
+        "ma20": 202.13899993896484,
+        "ma60": 231.2434995015462,
+        "ma200": 186.21740001678467
       }
     },
     {
@@ -1005,15 +1005,15 @@
       "volume_score": null,
       "news_score": 59.04,
       "passes_filter": false,
-      "current_price": 178.35000610351562,
+      "current_price": 203.36000061035156,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 190834507776,
-        "trailingPE": 205.0,
-        "forwardPE": 57.954205,
-        "priceToBook": 20.999647,
+        "marketCap": 217595199488,
+        "trailingPE": 233.74713,
+        "forwardPE": 66.162384,
+        "priceToBook": 23.944426,
         "returnOnEquity": 0.11349,
         "profitMargins": 0.1713,
         "grossMargins": 0.97438,
@@ -1021,7 +1021,7 @@
         "earningsGrowth": -0.455,
         "debtToEquity": 5.502,
         "currentRatio": 6.349,
-        "targetMeanPrice": 273.405,
+        "targetMeanPrice": 274.555,
         "recommendationMean": 1.93023
       },
       "profile": null,
@@ -1211,10 +1211,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 179.55800170898436,
-        "ma20": 211.21950073242186,
-        "ma60": 249.78200022379556,
-        "ma200": 231.50162490844727
+        "ma5": 182.4980010986328,
+        "ma20": 209.64400100708008,
+        "ma60": 249.0016667683919,
+        "ma200": 231.9597249221802
       }
     },
     {
@@ -1232,15 +1232,15 @@
       "volume_score": null,
       "news_score": 44.52,
       "passes_filter": true,
-      "current_price": 710.9929809570312,
+      "current_price": 811.2999877929688,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 804433952768,
-        "trailingPE": 9.565356,
-        "forwardPE": 3.4221761,
-        "priceToBook": 5.81114,
+        "marketCap": 917923627008,
+        "trailingPE": 10.914839,
+        "forwardPE": 3.9049773,
+        "priceToBook": 6.6309767,
         "returnOnEquity": 0.8826,
         "profitMargins": 0.63796,
         "grossMargins": 0.80716,
@@ -1438,10 +1438,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 717.1526000976562,
-        "ma20": 854.1021514892578,
-        "ma60": 951.0350504557292,
-        "ma200": 760.0021661376953
+        "ma5": 723.1900024414062,
+        "ma20": 849.6665008544921,
+        "ma60": 949.1126668294271,
+        "ma200": 762.0780511474609
       }
     },
     {
@@ -1459,15 +1459,15 @@
       "volume_score": null,
       "news_score": 33.02,
       "passes_filter": true,
-      "current_price": 279.54998779296875,
+      "current_price": 313.30999755859375,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Computer Hardware",
-        "marketCap": 104673886208,
-        "trailingPE": 9.835913,
-        "forwardPE": 6.92083,
-        "priceToBook": 11.187637,
+        "marketCap": 117279219712,
+        "trailingPE": 11.020401,
+        "forwardPE": 7.754269,
+        "priceToBook": 12.534906,
         "returnOnEquity": 1.29596,
         "profitMargins": 0.69196,
         "grossMargins": 0.52603,
@@ -1665,10 +1665,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 284.91399536132815,
-        "ma20": 342.5455017089844,
-        "ma60": 410.17933400472003,
-        "ma200": 421.3892992401123
+        "ma5": 284.74000244140626,
+        "ma20": 340.4885025024414,
+        "ma60": 407.29266764322915,
+        "ma200": 421.740799331665
       }
     },
     {
@@ -1686,15 +1686,15 @@
       "volume_score": null,
       "news_score": 46.37,
       "passes_filter": true,
-      "current_price": 391.45001220703125,
+      "current_price": 413.3500061035156,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductors",
-        "marketCap": 2030245249024,
-        "trailingPE": 25.369411,
-        "forwardPE": 16.739155,
-        "priceToBook": 74.70534,
+        "marketCap": 2143828574208,
+        "trailingPE": 26.788723,
+        "forwardPE": 17.675642,
+        "priceToBook": 78.88479,
         "returnOnEquity": 0.41854998,
         "profitMargins": 0.51116,
         "grossMargins": 0.65846,
@@ -1892,10 +1892,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 380.87200317382815,
-        "ma20": 410.96950073242186,
-        "ma60": 428.25316721598307,
-        "ma200": 402.0400003051758
+        "ma5": 385.39800415039065,
+        "ma20": 410.3885009765625,
+        "ma60": 428.33600056966145,
+        "ma200": 402.4402003479004
       }
     },
     {
@@ -1913,15 +1913,15 @@
       "volume_score": null,
       "news_score": 39.73,
       "passes_filter": true,
-      "current_price": 1502.1199951171875,
+      "current_price": 1534.4200439453125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "marketCap": 578943647744,
-        "trailingPE": 36.961613,
-        "forwardPE": 23.69301,
-        "priceToBook": 1289.7938,
+        "marketCap": 591392669696,
+        "trailingPE": 37.7564,
+        "forwardPE": 24.20248,
+        "priceToBook": 1317.5282,
         "returnOnEquity": 0.65636003,
         "profitMargins": 0.34135,
         "grossMargins": 0.54337,
@@ -1929,7 +1929,7 @@
         "earningsGrowth": 1.359,
         "debtToEquity": 8.897,
         "currentRatio": 1.487,
-        "targetMeanPrice": 2141.7864,
+        "targetMeanPrice": 2127.5315,
         "recommendationMean": 1.36585
       },
       "profile": null,
@@ -2119,10 +2119,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 1458.614013671875,
-        "ma20": 1576.9109985351563,
-        "ma60": 1681.8625040690104,
-        "ma200": 1601.214801635742
+        "ma5": 1467.3840087890626,
+        "ma20": 1571.4184997558593,
+        "ma60": 1677.4820048014324,
+        "ma200": 1601.642601928711
       }
     },
     {
@@ -2140,15 +2140,15 @@
       "volume_score": null,
       "news_score": 51.7,
       "passes_filter": true,
-      "current_price": 369.55999755859375,
+      "current_price": 395.0799865722656,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "marketCap": 293281857536,
-        "trailingPE": 31.886108,
-        "forwardPE": 19.915447,
-        "priceToBook": 11.4446745,
+        "marketCap": 313534480384,
+        "trailingPE": 34.088005,
+        "forwardPE": 21.22372,
+        "priceToBook": 12.234987,
         "returnOnEquity": 0.41068,
         "profitMargins": 0.30052,
         "grossMargins": 0.49398,
@@ -2346,10 +2346,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 352.29599609375,
-        "ma20": 389.7489990234375,
-        "ma60": 448.4601684570313,
-        "ma200": 445.8459997558594
+        "ma5": 358.0259948730469,
+        "ma20": 387.3199981689453,
+        "ma60": 446.52216796875,
+        "ma200": 446.17269973754884
       }
     },
     {
@@ -2367,15 +2367,15 @@
       "volume_score": 65.0,
       "news_score": 44.12,
       "passes_filter": true,
-      "current_price": 221.7449951171875,
+      "current_price": 235.8800048828125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "marketCap": 276997406720,
-        "trailingPE": 33.046944,
-        "forwardPE": 18.121855,
-        "priceToBook": 19.916023,
+        "marketCap": 294654443520,
+        "trailingPE": 35.153503,
+        "forwardPE": 19.277021,
+        "priceToBook": 21.185558,
         "returnOnEquity": 0.7012,
         "profitMargins": 0.3234,
         "grossMargins": 0.51054,
@@ -2383,8 +2383,7 @@
         "earningsGrowth": 0.766,
         "debtToEquity": 26.857,
         "currentRatio": 2.479,
-        "targetMeanPrice": 363.03333,
-        "recommendationMean": 1.38235
+        "targetMeanPrice": 363.03333
       },
       "profile": {
         "ticker": "LRCX",
@@ -2925,10 +2924,10 @@
         "track_record"
       ],
       "moving_averages": {
-        "ma5": 210.02499694824218,
-        "ma20": 240.95525131225585,
-        "ma60": 286.2892504374186,
-        "ma200": 284.0216742706299
+        "ma5": 213.04400024414062,
+        "ma20": 238.4355010986328,
+        "ma60": 284.76600036621096,
+        "ma200": 284.01199928283694
       }
     },
     {
@@ -2946,15 +2945,15 @@
       "volume_score": null,
       "news_score": 30.95,
       "passes_filter": false,
-      "current_price": 151.99000549316406,
+      "current_price": 161.00999450683594,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Semiconductor Equipment & Materials",
-        "marketCap": 198037274624,
-        "trailingPE": 38.09273,
-        "forwardPE": 21.41054,
-        "priceToBook": 30.367632,
+        "marketCap": 209789976576,
+        "trailingPE": 40.353382,
+        "forwardPE": 22.68117,
+        "priceToBook": 32.169827,
         "returnOnEquity": 0.91382,
         "profitMargins": 0.3625,
         "grossMargins": 0.61465,
@@ -3152,10 +3151,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 144.29000244140624,
-        "ma20": 156.0880012512207,
-        "ma60": 175.49316736857097,
-        "ma200": 181.87765037536622
+        "ma5": 146.73400268554687,
+        "ma20": 155.2480010986328,
+        "ma60": 174.94683405558268,
+        "ma200": 181.87953536987305
       }
     },
     {
@@ -3173,15 +3172,15 @@
       "volume_score": null,
       "news_score": 62.67,
       "passes_filter": false,
-      "current_price": 27.549999237060547,
+      "current_price": 30.43000030517578,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Computer Hardware",
-        "marketCap": 18161713152,
-        "trailingPE": 5.8122363,
-        "forwardPE": 3.9668484,
-        "priceToBook": 1.5335374,
+        "marketCap": 20060289024,
+        "trailingPE": 6.4198318,
+        "forwardPE": 4.3815317,
+        "priceToBook": 1.6938492,
         "returnOnEquity": 0.32368,
         "profitMargins": 0.067719996,
         "grossMargins": 0.11378,
@@ -3379,10 +3378,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 28.318000030517577,
-        "ma20": 32.18449993133545,
-        "ma60": 37.09116636912028,
-        "ma200": 32.581449842453004
+        "ma5": 28.53200035095215,
+        "ma20": 31.929000091552734,
+        "ma60": 36.97883307139079,
+        "ma200": 32.57879984855652
       }
     },
     {
@@ -3400,15 +3399,15 @@
       "volume_score": null,
       "news_score": 45.07,
       "passes_filter": false,
-      "current_price": 328.44500732421875,
+      "current_price": 373.67999267578125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Computer Hardware",
-        "marketCap": 208829513728,
-        "trailingPE": 19.095638,
-        "forwardPE": 10.83968,
-        "priceToBook": -147.28476,
+        "marketCap": 237590495232,
+        "trailingPE": 21.72558,
+        "forwardPE": 12.332572,
+        "priceToBook": -167.5695,
         "profitMargins": 0.07525,
         "grossMargins": 0.19910999,
         "revenueGrowth": 0.577,
@@ -3604,10 +3603,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 338.51099853515626,
-        "ma20": 430.08424987792966,
-        "ma60": 492.15608469645184,
-        "ma200": 339.676174736023
+        "ma5": 339.9619995117188,
+        "ma20": 423.6684997558594,
+        "ma60": 490.67216796875,
+        "ma200": 341.0009496688843
       }
     },
     {
@@ -3625,15 +3624,15 @@
       "volume_score": null,
       "news_score": 38.93,
       "passes_filter": false,
-      "current_price": 190.58999633789062,
+      "current_price": 206.50999450683594,
       "price_note": null,
       "info": {
         "sector": "Industrials",
         "industry": "Electrical Equipment & Parts",
-        "marketCap": 73388662784,
-        "trailingPE": 35.6243,
-        "forwardPE": 19.364317,
-        "priceToBook": 13.337298,
+        "marketCap": 79518826496,
+        "trailingPE": 38.6,
+        "forwardPE": 20.98182,
+        "priceToBook": 14.4513645,
         "returnOnEquity": 0.46567002,
         "profitMargins": 0.15995,
         "grossMargins": 0.38115,
@@ -3831,10 +3830,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 191.23999938964843,
-        "ma20": 210.0904998779297,
-        "ma60": 239.08083318074543,
-        "ma200": 271.35910018920896
+        "ma5": 192.15799865722656,
+        "ma20": 209.45599975585938,
+        "ma60": 238.04083302815755,
+        "ma200": 271.46375015258786
       }
     },
     {
@@ -3852,15 +3851,15 @@
       "volume_score": null,
       "news_score": 44.32,
       "passes_filter": false,
-      "current_price": 533.7050170898438,
+      "current_price": 521.125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 3963397341184,
-        "trailingPE": 27.855167,
-        "forwardPE": 22.057856,
-        "priceToBook": 8.424571,
+        "marketCap": 3869975511040,
+        "trailingPE": 27.198591,
+        "forwardPE": 21.537926,
+        "priceToBook": 8.225995,
         "returnOnEquity": 0.34221,
         "profitMargins": 0.41169998,
         "grossMargins": 0.67657,
@@ -4058,10 +4057,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 540.2449951171875,
-        "ma20": 531.1217498779297,
-        "ma60": 513.6992502848308,
-        "ma200": 440.56062423706055
+        "ma5": 533.2009887695312,
+        "ma20": 530.4662475585938,
+        "ma60": 514.3484161376953,
+        "ma200": 440.7606240844727
       }
     },
     {
@@ -4079,15 +4078,15 @@
       "volume_score": null,
       "news_score": 39.17,
       "passes_filter": true,
-      "current_price": 286.3599853515625,
+      "current_price": 293.45001220703125,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 3520509509632,
-        "trailingPE": 14.953525,
-        "forwardPE": 18.552507,
-        "priceToBook": 5.337956,
+        "marketCap": 3607674224640,
+        "trailingPE": 15.323761,
+        "forwardPE": 19.01185,
+        "priceToBook": 5.470119,
         "returnOnEquity": 0.44286,
         "profitMargins": 0.50031,
         "grossMargins": 0.60857,
@@ -4285,10 +4284,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 286.1579956054687,
-        "ma20": 310.8419982910156,
-        "ma60": 332.88316599527997,
-        "ma200": 339.0796990966797
+        "ma5": 287.26600341796876,
+        "ma20": 308.1834991455078,
+        "ma60": 332.05433298746743,
+        "ma200": 338.8792993164063
       }
     },
     {
@@ -4306,15 +4305,15 @@
       "volume_score": null,
       "news_score": 39.36,
       "passes_filter": false,
-      "current_price": 269.6700134277344,
+      "current_price": 266.1700134277344,
       "price_note": null,
       "info": {
         "sector": "Consumer Cyclical",
         "industry": "Internet Retail",
-        "marketCap": 2915978969088,
-        "trailingPE": 21.800325,
-        "forwardPE": 24.73211,
-        "priceToBook": 4.7513084,
+        "marketCap": 2878132977664,
+        "trailingPE": 21.517382,
+        "forwardPE": 24.411116,
+        "priceToBook": 4.689642,
         "returnOnEquity": 0.27416,
         "profitMargins": 0.16900998,
         "grossMargins": 0.51374,
@@ -4512,10 +4511,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 264.42799682617186,
-        "ma20": 255.20300064086913,
-        "ma60": 255.29683329264324,
-        "ma200": 244.2352500152588
+        "ma5": 264.69599609375,
+        "ma20": 255.86750030517578,
+        "ma60": 255.4288330078125,
+        "ma200": 244.3487000274658
       }
     },
     {
@@ -4533,15 +4532,15 @@
       "volume_score": null,
       "news_score": 44.31,
       "passes_filter": false,
-      "current_price": 117.04000091552734,
+      "current_price": 128.3800048828125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 364896550912,
-        "trailingPE": 18.344828,
-        "forwardPE": 10.578874,
-        "priceToBook": 5.724907,
+        "marketCap": 400251387904,
+        "trailingPE": 20.122257,
+        "forwardPE": 11.608844,
+        "priceToBook": 6.279593,
         "returnOnEquity": 0.41192,
         "profitMargins": 0.2636,
         "grossMargins": 0.63957,
@@ -4549,8 +4548,8 @@
         "earningsGrowth": 0.545,
         "debtToEquity": 251.716,
         "currentRatio": 1.171,
-        "targetMeanPrice": 235.7735,
-        "recommendationMean": 1.54762
+        "targetMeanPrice": 236.184,
+        "recommendationMean": 1.5
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Oracle Corporation (ORCL), Layer 2 Cloud & compute.",
@@ -4739,10 +4738,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 118.36400146484375,
-        "ma20": 127.17000007629395,
-        "ma60": 139.2633332570394,
-        "ma200": 154.7880997467041
+        "ma5": 119.48200225830078,
+        "ma20": 127.10850028991699,
+        "ma60": 139.0388334910075,
+        "ma200": 154.5601998138428
       }
     },
     {
@@ -4760,15 +4759,15 @@
       "volume_score": null,
       "news_score": 54.24,
       "passes_filter": false,
-      "current_price": 244.9600067138672,
+      "current_price": 248.22000122070312,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Information Technology Services",
-        "marketCap": 231516798976,
-        "trailingPE": 20.901024,
-        "forwardPE": 18.509844,
-        "priceToBook": 6.514894,
+        "marketCap": 234597892096,
+        "trailingPE": 21.17918,
+        "forwardPE": 18.749674,
+        "priceToBook": 6.601596,
         "returnOnEquity": 0.34769002,
         "profitMargins": 0.15989,
         "grossMargins": 0.57965,
@@ -4776,7 +4775,7 @@
         "earningsGrowth": 0.25,
         "debtToEquity": 185.439,
         "currentRatio": 0.855,
-        "targetMeanPrice": 259.30347,
+        "targetMeanPrice": 259.84738,
         "recommendationMean": 2.28
       },
       "profile": null,
@@ -4966,10 +4965,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 247.5000030517578,
-        "ma20": 247.13150024414062,
-        "ma60": 236.6979990641276,
-        "ma200": 247.48239921569825
+        "ma5": 246.19400024414062,
+        "ma20": 248.12699966430665,
+        "ma60": 236.9499989827474,
+        "ma200": 247.2520492553711
       }
     },
     {
@@ -4987,21 +4986,21 @@
       "volume_score": null,
       "news_score": 45.78,
       "passes_filter": false,
-      "current_price": 47.814998626708984,
+      "current_price": 60.77000045776367,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 26371721216,
-        "forwardPE": -23.55581,
-        "priceToBook": 5.244023,
-        "returnOnEquity": -0.43596,
-        "profitMargins": -0.25402,
-        "grossMargins": 0.67418,
-        "revenueGrowth": 1.125,
-        "debtToEquity": 1027.329,
-        "currentRatio": 0.455,
-        "targetMeanPrice": 131.52632,
+        "marketCap": 33516877824,
+        "forwardPE": -32.46434,
+        "priceToBook": 8.440278,
+        "returnOnEquity": -0.6395,
+        "profitMargins": -0.25561002,
+        "grossMargins": 0.66751,
+        "revenueGrowth": 1.683,
+        "debtToEquity": 1645.193,
+        "currentRatio": 0.443,
+        "targetMeanPrice": 125.45946,
         "recommendationMean": 1.7619
       },
       "profile": null,
@@ -5191,10 +5190,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 47.05499954223633,
-        "ma20": 56.26149997711182,
-        "ma60": 76.42633355458578,
-        "ma200": 89.7022249031067
+        "ma5": 49.70800018310547,
+        "ma20": 56.05675010681152,
+        "ma60": 75.90158360799154,
+        "ma200": 89.46634990692138
       }
     },
     {
@@ -5212,22 +5211,22 @@
       "volume_score": null,
       "news_score": 63.07,
       "passes_filter": false,
-      "current_price": 299.79998779296875,
+      "current_price": 315.0,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 107445993472,
-        "forwardPE": 162.11012,
-        "priceToBook": 73.31865,
+        "marketCap": 112893558784,
+        "forwardPE": 170.3292,
+        "priceToBook": 77.03594,
         "returnOnEquity": -0.17003,
         "profitMargins": -0.087469995,
         "grossMargins": 0.71900004,
         "revenueGrowth": 0.392,
         "debtToEquity": 321.372,
         "currentRatio": 3.797,
-        "targetMeanPrice": 341.2258,
-        "recommendationMean": 1.91176
+        "targetMeanPrice": 341.09375,
+        "recommendationMean": 1.88571
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Cloudflare, Inc. (NET), Layer 2 Cloud & compute.",
@@ -5416,10 +5415,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 274.67799377441406,
-        "ma20": 297.2169960021973,
-        "ma60": 313.6761660257975,
-        "ma200": 251.39869979858398
+        "ma5": 285.56199645996094,
+        "ma20": 297.050496673584,
+        "ma60": 314.0034996032715,
+        "ma200": 251.97394981384278
       }
     },
     {
@@ -5437,15 +5436,15 @@
       "volume_score": null,
       "news_score": 65.37,
       "passes_filter": false,
-      "current_price": 83.43000030517578,
+      "current_price": 86.68000030517578,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 12033039360,
-        "trailingPE": 32.463036,
-        "forwardPE": 12.0438795,
-        "priceToBook": 2.3346858,
+        "marketCap": 12501784576,
+        "trailingPE": 33.727627,
+        "forwardPE": 12.513047,
+        "priceToBook": 2.4256332,
         "returnOnEquity": 0.07852,
         "profitMargins": 0.088360004,
         "grossMargins": 0.56393003,
@@ -5453,8 +5452,8 @@
         "earningsGrowth": -0.206,
         "debtToEquity": 183.511,
         "currentRatio": 2.128,
-        "targetMeanPrice": 132.1605,
-        "recommendationMean": 2.0
+        "targetMeanPrice": 130.39095,
+        "recommendationMean": 2.04348
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Akamai Technologies, Inc. (AKAM), Layer 2 Cloud & compute.",
@@ -5643,10 +5642,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 82.11599884033203,
-        "ma20": 89.7869987487793,
-        "ma60": 102.00849939982096,
-        "ma200": 112.18750003814698
+        "ma5": 82.3219985961914,
+        "ma20": 89.5494987487793,
+        "ma60": 101.53783276875814,
+        "ma200": 112.10600002288818
       }
     },
     {
@@ -5664,15 +5663,15 @@
       "volume_score": null,
       "news_score": 50.06,
       "passes_filter": true,
-      "current_price": 639.3400268554688,
+      "current_price": 628.77001953125,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 1634685681664,
-        "trailingPE": 21.813034,
-        "forwardPE": 17.965122,
-        "priceToBook": 5.9994183,
+        "marketCap": 1607659945984,
+        "trailingPE": 21.452406,
+        "forwardPE": 17.66811,
+        "priceToBook": 5.900232,
         "returnOnEquity": 0.32264,
         "profitMargins": 0.31145,
         "grossMargins": 0.81034,
@@ -5870,10 +5869,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 625.1880126953125,
-        "ma20": 651.436001586914,
-        "ma60": 658.1393341064453,
-        "ma200": 631.6868475341797
+        "ma5": 625.3520141601563,
+        "ma20": 646.1000030517578,
+        "ma60": 659.5918345133464,
+        "ma200": 631.4760977172851
       }
     },
     {
@@ -5891,14 +5890,14 @@
       "volume_score": null,
       "news_score": 26.4,
       "passes_filter": false,
-      "current_price": 79.12999725341797,
+      "current_price": 79.76000213623047,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 26937716736,
-        "forwardPE": 11.639323,
-        "priceToBook": 0.66036654,
+        "marketCap": 27152185344,
+        "forwardPE": 11.731992,
+        "priceToBook": 0.66562414,
         "returnOnEquity": -0.0139,
         "profitMargins": -0.02895,
         "grossMargins": 0.40870997,
@@ -5906,7 +5905,7 @@
         "earningsGrowth": -0.738,
         "debtToEquity": 38.258,
         "currentRatio": 2.327,
-        "targetMeanPrice": 134.5739,
+        "targetMeanPrice": 133.19838,
         "recommendationMean": 1.66667
       },
       "profile": null,
@@ -6056,10 +6055,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 80.38800048828125,
-        "ma20": 79.26599998474121,
-        "ma60": 86.68316701253255,
-        "ma200": 111.7762001800537
+        "ma5": 80.37000122070313,
+        "ma20": 79.19000015258788,
+        "ma60": 86.5076670328776,
+        "ma200": 111.3897002029419
       }
     },
     {
@@ -6077,15 +6076,15 @@
       "volume_score": null,
       "news_score": 45.15,
       "passes_filter": true,
-      "current_price": 377.05999755859375,
+      "current_price": 390.8399963378906,
       "price_note": null,
       "info": {
         "sector": "Consumer Cyclical",
         "industry": "Auto Manufacturers",
-        "marketCap": 1490585124864,
-        "trailingPE": 414.3956,
-        "forwardPE": 174.64641,
-        "priceToBook": 16.694706,
+        "marketCap": 1544895987712,
+        "trailingPE": 429.49448,
+        "forwardPE": 181.00981,
+        "priceToBook": 17.302994,
         "returnOnEquity": 0.03844,
         "profitMargins": 0.031070001,
         "grossMargins": 0.19285999,
@@ -6283,10 +6282,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 368.44199829101564,
-        "ma20": 380.5149978637695,
-        "ma60": 369.29633178710935,
-        "ma200": 383.2193489074707
+        "ma5": 370.1159973144531,
+        "ma20": 381.8349975585937,
+        "ma60": 370.2411651611328,
+        "ma200": 383.03264892578125
       }
     },
     {
@@ -6304,15 +6303,15 @@
       "volume_score": null,
       "news_score": 44.58,
       "passes_filter": true,
-      "current_price": 348.04998779296875,
+      "current_price": 355.6300048828125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Consumer Electronics",
-        "marketCap": 5057925873664,
-        "trailingPE": 38.758354,
-        "forwardPE": 32.98483,
-        "priceToBook": 45.125114,
+        "marketCap": 5168079831040,
+        "trailingPE": 39.60245,
+        "forwardPE": 33.70319,
+        "priceToBook": 46.107872,
         "returnOnEquity": 1.42257,
         "profitMargins": 0.27604,
         "grossMargins": 0.48786,
@@ -6320,7 +6319,7 @@
         "earningsGrowth": 0.141,
         "debtToEquity": 84.286,
         "currentRatio": 1.023,
-        "targetMeanPrice": 340.7655,
+        "targetMeanPrice": 344.6155,
         "recommendationMean": 2.22222
       },
       "profile": null,
@@ -6510,10 +6509,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 346.9580017089844,
-        "ma20": 344.2095001220703,
-        "ma60": 333.2535003662109,
-        "ma200": 299.7816500854492
+        "ma5": 348.2740051269531,
+        "ma20": 344.86600189208986,
+        "ma60": 334.0211675008138,
+        "ma200": 300.2707502746582
       }
     },
     {
@@ -6531,15 +6530,15 @@
       "volume_score": null,
       "news_score": 45.67,
       "passes_filter": false,
-      "current_price": 165.7550048828125,
+      "current_price": 172.39999389648438,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 399386279936,
-        "trailingPE": 116.72888,
-        "forwardPE": 65.38092,
-        "priceToBook": 35.562115,
+        "marketCap": 415397380096,
+        "trailingPE": 121.40845,
+        "forwardPE": 67.9069,
+        "priceToBook": 36.98777,
         "returnOnEquity": 0.40907001,
         "profitMargins": 0.50343,
         "grossMargins": 0.84744,
@@ -6737,10 +6736,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 164.40500183105468,
-        "ma20": 185.9792495727539,
-        "ma60": 184.02824935913085,
-        "ma200": 153.52219951629638
+        "ma5": 165.1580017089844,
+        "ma20": 184.7039993286133,
+        "ma60": 184.09366607666016,
+        "ma200": 153.57102451324462
       }
     },
     {
@@ -6758,14 +6757,14 @@
       "volume_score": null,
       "news_score": 49.3,
       "passes_filter": false,
-      "current_price": 291.239990234375,
+      "current_price": 301.2200012207031,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 102749470720,
-        "forwardPE": 95.72894,
-        "priceToBook": 47.75209,
+        "marketCap": 106270416896,
+        "forwardPE": 98.93615,
+        "priceToBook": 49.388424,
         "returnOnEquity": -0.48063,
         "profitMargins": -0.20071,
         "grossMargins": 0.6703,
@@ -6962,10 +6961,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 283.6800048828125,
-        "ma20": 311.34100036621095,
-        "ma60": 326.28416646321614,
-        "ma200": 241.8438998413086
+        "ma5": 286.7080078125,
+        "ma20": 309.87400207519534,
+        "ma60": 325.9576670328776,
+        "ma200": 242.30884994506835
       }
     },
     {
@@ -6983,15 +6982,15 @@
       "volume_score": null,
       "news_score": 44.68,
       "passes_filter": false,
-      "current_price": 175.51499938964844,
+      "current_price": 184.3800048828125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 63368384512,
-        "trailingPE": 243.77083,
-        "forwardPE": 55.278748,
-        "priceToBook": 13.437069,
+        "marketCap": 66569027584,
+        "trailingPE": 256.08334,
+        "forwardPE": 57.928307,
+        "priceToBook": 14.115756,
         "returnOnEquity": 0.06426,
         "profitMargins": 0.061240003,
         "grossMargins": 0.79609,
@@ -6999,8 +6998,8 @@
         "earningsGrowth": 2.316,
         "debtToEquity": 27.72,
         "currentRatio": 3.508,
-        "targetMeanPrice": 271.71106,
-        "recommendationMean": 1.41667
+        "targetMeanPrice": 269.65457,
+        "recommendationMean": 1.40816
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Datadog, Inc. (DDOG), Layer 4 Data platforms.",
@@ -7189,10 +7188,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 179.4989990234375,
-        "ma20": 238.73324813842774,
-        "ma60": 243.49158299763997,
-        "ma200": 200.6189501953125
+        "ma5": 179.20799865722657,
+        "ma20": 234.62999877929687,
+        "ma60": 242.51266632080078,
+        "ma200": 200.8642251586914
       }
     },
     {
@@ -7210,22 +7209,22 @@
       "volume_score": null,
       "news_score": 34.75,
       "passes_filter": true,
-      "current_price": 325.6199951171875,
+      "current_price": 338.1199951171875,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 26230755328,
-        "trailingPE": 452.24997,
-        "forwardPE": 41.22461,
-        "priceToBook": 8.81078,
+        "marketCap": 27195643904,
+        "trailingPE": 469.61108,
+        "forwardPE": 42.80715,
+        "priceToBook": 9.149011,
         "returnOnEquity": 0.01989,
         "profitMargins": 0.02116,
         "grossMargins": 0.72688,
         "revenueGrowth": 0.305,
         "debtToEquity": 1.846,
         "currentRatio": 4.866,
-        "targetMeanPrice": 453.65134,
+        "targetMeanPrice": 452.68683,
         "recommendationMean": 1.58537
       },
       "profile": null,
@@ -7415,10 +7414,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 319.75799560546875,
-        "ma20": 353.7094970703125,
-        "ma60": 378.3556645711263,
-        "ma200": 335.1794989776611
+        "ma5": 322.9779968261719,
+        "ma20": 353.11899719238284,
+        "ma60": 376.85333150227865,
+        "ma200": 334.8424489593506
       }
     },
     {
@@ -7436,15 +7435,15 @@
       "volume_score": null,
       "news_score": 41.28,
       "passes_filter": false,
-      "current_price": 85.58000183105469,
+      "current_price": 87.30999755859375,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 8985153536,
-        "trailingPE": 24.45143,
-        "forwardPE": 21.638105,
-        "priceToBook": 6.9368567,
+        "marketCap": 9166788608,
+        "trailingPE": 24.945713,
+        "forwardPE": 22.075518,
+        "priceToBook": 7.077085,
         "returnOnEquity": 0.33122003,
         "profitMargins": 0.20844,
         "grossMargins": 0.75586,
@@ -7591,10 +7590,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 87.16000061035156,
-        "ma20": 95.36499938964843,
-        "ma60": 91.48050003051758,
-        "ma200": 67.81265005111695
+        "ma5": 87.01999969482422,
+        "ma20": 95.2109992980957,
+        "ma60": 91.54666659037272,
+        "ma200": 67.88645002365112
       }
     },
     {
@@ -7612,22 +7611,21 @@
       "volume_score": null,
       "news_score": 38.58,
       "passes_filter": false,
-      "current_price": 11.699999809265137,
+      "current_price": 12.1899995803833,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 1881124224,
-        "forwardPE": -24.883028,
-        "priceToBook": 2.6908922,
+        "marketCap": 1959906432,
+        "forwardPE": -25.925137,
+        "priceToBook": 2.8035877,
         "returnOnEquity": -0.59771997,
         "profitMargins": -1.9210299,
         "grossMargins": 0.29093,
         "revenueGrowth": -0.255,
         "debtToEquity": 8.557,
         "currentRatio": 6.155,
-        "targetMeanPrice": 8.9,
-        "recommendationMean": 3.53846
+        "targetMeanPrice": 8.9
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. C3.ai, Inc. (AI), Layer 4 Data platforms.",
@@ -7816,10 +7814,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 11.745999908447265,
-        "ma20": 11.882499933242798,
-        "ma60": 11.092666625976562,
-        "ma200": 9.996949982643127
+        "ma5": 11.819999885559081,
+        "ma20": 11.915499925613403,
+        "ma60": 11.133666626612346,
+        "ma200": 9.995599980354308
       }
     },
     {
@@ -7837,14 +7835,14 @@
       "volume_score": null,
       "news_score": 43.29,
       "passes_filter": false,
-      "current_price": 23.344999313354492,
+      "current_price": 23.780000686645508,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 8125206528,
-        "forwardPE": 50.6498,
-        "priceToBook": 5.576923,
+        "marketCap": 8276608512,
+        "forwardPE": 51.59359,
+        "priceToBook": 5.6808414,
         "returnOnEquity": -0.23008,
         "profitMargins": -0.30953,
         "grossMargins": 0.72540003,
@@ -7990,10 +7988,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 22.709000015258788,
-        "ma20": 23.408249950408937,
-        "ma60": 22.85008325576782,
-        "ma200": 17.93342492580414
+        "ma5": 22.784000396728516,
+        "ma20": 23.460500049591065,
+        "ma60": 22.872999954223634,
+        "ma200": 17.977199935913085
       }
     },
     {
@@ -8011,15 +8009,15 @@
       "volume_score": null,
       "news_score": 61.88,
       "passes_filter": true,
-      "current_price": 12.604999542236328,
+      "current_price": 13.140000343322754,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 6569163776,
-        "trailingPE": 18.81343,
-        "forwardPE": 13.665289,
-        "priceToBook": 3.3703208,
+        "marketCap": 6847982592,
+        "trailingPE": 19.61194,
+        "forwardPE": 14.245293,
+        "priceToBook": 3.513369,
         "returnOnEquity": 0.20027,
         "profitMargins": 0.21031,
         "grossMargins": 0.82583,
@@ -8147,10 +8145,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 13.020999908447266,
-        "ma20": 13.47925000190735,
-        "ma60": 14.23608325322469,
-        "ma200": 12.328824982643127
+        "ma5": 12.992000007629395,
+        "ma20": 13.494500017166137,
+        "ma60": 14.199166599909464,
+        "ma200": 12.323849987983703
       }
     },
     {
@@ -8168,14 +8166,14 @@
       "volume_score": null,
       "news_score": 50.0,
       "passes_filter": false,
-      "current_price": 45.33000183105469,
+      "current_price": 47.31999969482422,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "marketCap": 7552658432,
-        "forwardPE": 43.655804,
-        "priceToBook": 8.192662,
+        "marketCap": 7884221952,
+        "forwardPE": 45.572304,
+        "priceToBook": 8.552322,
         "returnOnEquity": -0.05738,
         "profitMargins": -0.04993,
         "grossMargins": 0.859,
@@ -8241,10 +8239,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 48.380000305175784,
-        "ma20": 53.24850006103516,
-        "ma60": 49.61608346303304,
-        "ma200": 34.550625
+        "ma5": 47.636000061035155,
+        "ma20": 53.022999954223636,
+        "ma60": 49.735250091552736,
+        "ma200": 34.607274990081784
       }
     },
     {
@@ -8305,22 +8303,22 @@
       "volume_score": null,
       "news_score": 42.43,
       "passes_filter": false,
-      "current_price": 3.765000104904175,
+      "current_price": 3.9100000858306885,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 1840840832,
-        "forwardPE": -37.65,
-        "priceToBook": 2.283202,
-        "returnOnEquity": -0.12303001,
-        "profitMargins": -0.33168,
+        "marketCap": 1909618304,
+        "forwardPE": -61.74009,
+        "priceToBook": 2.371134,
+        "returnOnEquity": -0.12212,
+        "profitMargins": -0.32923,
         "grossMargins": 0.39943,
         "revenueGrowth": 0.485,
         "debtToEquity": 1.05,
         "currentRatio": 2.027,
-        "targetMeanPrice": 11.0,
-        "recommendationMean": 1.57143
+        "targetMeanPrice": 12.0,
+        "recommendationMean": 1.33333
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. SoundHound AI, Inc. (SOUN), Layer 4 Data platforms.",
@@ -8509,10 +8507,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 4.101000165939331,
-        "ma20": 4.368750011920929,
-        "ma60": 5.659416671593984,
-        "ma200": 6.955925003290177
+        "ma5": 4.040000104904175,
+        "ma20": 4.342999994754791,
+        "ma60": 5.609833339850108,
+        "ma200": 6.926300004720688
       }
     },
     {
@@ -8530,15 +8528,15 @@
       "volume_score": null,
       "news_score": 51.02,
       "passes_filter": true,
-      "current_price": 211.27999877929688,
+      "current_price": 218.00999450683594,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 173883441152,
-        "trailingPE": 19.330282,
-        "forwardPE": 13.192442,
-        "priceToBook": 4.530794,
+        "marketCap": 179422232576,
+        "trailingPE": 19.946018,
+        "forwardPE": 13.612667,
+        "priceToBook": 4.6751156,
         "returnOnEquity": 0.19381,
         "profitMargins": 0.2199,
         "grossMargins": 0.77282,
@@ -8736,10 +8734,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 217.87799987792968,
-        "ma20": 233.86799850463868,
-        "ma60": 234.84149907430012,
-        "ma200": 198.06060005187987
+        "ma5": 216.497998046875,
+        "ma20": 233.08099822998048,
+        "ma60": 235.24266560872397,
+        "ma200": 198.0190000152588
       }
     },
     {
@@ -8757,15 +8755,15 @@
       "volume_score": null,
       "news_score": 36.22,
       "passes_filter": false,
-      "current_price": 98.11499786376953,
+      "current_price": 102.76000213623047,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 101835227136,
-        "trailingPE": 70.58633,
-        "forwardPE": 20.430836,
-        "priceToBook": 7.7757964,
+        "marketCap": 106656350208,
+        "trailingPE": 73.92806,
+        "forwardPE": 21.39808,
+        "priceToBook": 8.143922,
         "returnOnEquity": 0.11846,
         "profitMargins": 0.09364,
         "grossMargins": 0.73080003,
@@ -8963,10 +8961,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 102.8029998779297,
-        "ma20": 130.0782501220703,
-        "ma60": 133.99708315531413,
-        "ma200": 114.09707515716553
+        "ma5": 101.89200134277344,
+        "ma20": 128.292000579834,
+        "ma60": 133.7431666056315,
+        "ma200": 113.9593501663208
       }
     },
     {
@@ -8984,15 +8982,15 @@
       "volume_score": null,
       "news_score": 25.09,
       "passes_filter": true,
-      "current_price": 234.16000366210938,
+      "current_price": 237.60000610351562,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 91135074304,
-        "trailingPE": 13.074261,
-        "forwardPE": 8.544158,
-        "priceToBook": 7.7827635,
+        "marketCap": 92473925632,
+        "trailingPE": 13.266332,
+        "forwardPE": 8.669261,
+        "priceToBook": 7.8970985,
         "returnOnEquity": 0.61902,
         "profitMargins": 0.28048,
         "grossMargins": 0.89252996,
@@ -9190,10 +9188,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 241.14000244140624,
-        "ma20": 249.45999908447266,
-        "ma60": 253.82633336385092,
-        "ma200": 248.5006997680664
+        "ma5": 239.4720031738281,
+        "ma20": 249.43299942016603,
+        "ma60": 253.44299977620443,
+        "ma200": 248.214299697876
       }
     },
     {
@@ -9211,15 +9209,15 @@
       "volume_score": 65.0,
       "news_score": 52.09,
       "passes_filter": true,
-      "current_price": 337.2850036621094,
+      "current_price": 342.6400146484375,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 90134691840,
-        "trailingPE": 20.491192,
-        "forwardPE": 12.525434,
-        "priceToBook": 4.766336,
+        "marketCap": 91565744128,
+        "trailingPE": 20.816526,
+        "forwardPE": 12.724298,
+        "priceToBook": 4.8420105,
         "returnOnEquity": 0.23596,
         "profitMargins": 0.21289,
         "grossMargins": 0.80982,
@@ -9765,10 +9763,10 @@
         "track_record"
       ],
       "moving_averages": {
-        "ma5": 345.6990051269531,
-        "ma20": 337.73475341796876,
-        "ma60": 324.48341674804686,
-        "ma200": 353.5516259765625
+        "ma5": 343.5300048828125,
+        "ma20": 339.5025039672852,
+        "ma60": 324.4065002441406,
+        "ma200": 352.55360092163085
       }
     },
     {
@@ -9786,15 +9784,15 @@
       "volume_score": null,
       "news_score": 43.55,
       "passes_filter": false,
-      "current_price": 187.9199981689453,
+      "current_price": 191.16000366210938,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 45288718336,
-        "trailingPE": 38.272915,
-        "forwardPE": 14.190181,
-        "priceToBook": 7.010632,
+        "marketCap": 46069559296,
+        "trailingPE": 38.932793,
+        "forwardPE": 14.434839,
+        "priceToBook": 7.1315055,
         "returnOnEquity": 0.16006,
         "profitMargins": 0.12319,
         "grossMargins": 0.75795,
@@ -9802,8 +9800,7 @@
         "earningsGrowth": 2.06,
         "debtToEquity": 58.39,
         "currentRatio": 0.908,
-        "targetMeanPrice": 209.25323,
-        "recommendationMean": 2.30952
+        "targetMeanPrice": 209.25323
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Workday, Inc. (WDAY), Layer 5 AI applications.",
@@ -9982,10 +9979,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 194.60799865722657,
-        "ma20": 198.952001953125,
-        "ma60": 194.3148338317871,
-        "ma200": 155.88644969940185
+        "ma5": 192.66600036621094,
+        "ma20": 199.12000198364257,
+        "ma60": 194.33966725667318,
+        "ma200": 155.90419971466065
       }
     },
     {
@@ -10003,15 +10000,15 @@
       "volume_score": null,
       "news_score": 34.23,
       "passes_filter": true,
-      "current_price": 146.30999755859375,
+      "current_price": 152.44000244140625,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 37036740608,
-        "trailingPE": 443.36362,
-        "forwardPE": 21.838388,
-        "priceToBook": 40.506645,
+        "marketCap": 38588481536,
+        "trailingPE": 461.9394,
+        "forwardPE": 22.762941,
+        "priceToBook": 42.203766,
         "returnOnEquity": 0.07754,
         "profitMargins": 0.01284,
         "grossMargins": 0.85834,
@@ -10208,10 +10205,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 165.61199645996095,
-        "ma20": 200.33450012207032,
-        "ma60": 191.3269162495931,
-        "ma200": 119.3840249633789
+        "ma5": 158.58199768066407,
+        "ma20": 197.83800048828124,
+        "ma60": 191.18908309936523,
+        "ma200": 119.48837501525878
       }
     },
     {
@@ -10229,15 +10226,15 @@
       "volume_score": null,
       "news_score": 43.53,
       "passes_filter": false,
-      "current_price": 194.38999938964844,
+      "current_price": 202.8800048828125,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 9493319680,
-        "trailingPE": 46.95411,
-        "forwardPE": 11.578434,
-        "priceToBook": 5.832983,
+        "marketCap": 9907941376,
+        "trailingPE": 49.004833,
+        "forwardPE": 12.084124,
+        "priceToBook": 6.0877395,
         "returnOnEquity": 0.12246,
         "profitMargins": 0.05946,
         "grossMargins": 0.83024,
@@ -10435,10 +10432,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 204.50599975585936,
-        "ma20": 234.4909996032715,
-        "ma60": 232.02083282470704,
-        "ma200": 227.95684944152833
+        "ma5": 202.2740020751953,
+        "ma20": 233.45350036621093,
+        "ma60": 231.67483291625976,
+        "ma200": 227.38594947814943
       }
     },
     {
@@ -10456,15 +10453,15 @@
       "volume_score": null,
       "news_score": 45.63,
       "passes_filter": true,
-      "current_price": 144.4600067138672,
+      "current_price": 149.25999450683594,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 185850970112,
-        "trailingPE": 88.62577,
-        "forwardPE": 58.91854,
-        "priceToBook": 14.575725,
+        "marketCap": 192026263552,
+        "trailingPE": 91.57055,
+        "forwardPE": 60.67652,
+        "priceToBook": 15.060034,
         "returnOnEquity": 0.16833,
         "profitMargins": 0.15007,
         "grossMargins": 0.47491002,
@@ -10472,7 +10469,7 @@
         "earningsGrowth": 0.795,
         "debtToEquity": 1.475,
         "currentRatio": 4.86,
-        "targetMeanPrice": 177.4902,
+        "targetMeanPrice": 177.28612,
         "recommendationMean": 1.69091
       },
       "profile": null,
@@ -10662,10 +10659,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 148.44200134277344,
-        "ma20": 162.2034996032715,
-        "ma60": 152.00283330281576,
-        "ma200": 130.0466500091553
+        "ma5": 148.1179992675781,
+        "ma20": 161.1489990234375,
+        "ma60": 152.08333307902018,
+        "ma200": 130.11619995117186
       }
     },
     {
@@ -10683,23 +10680,23 @@
       "volume_score": null,
       "news_score": 47.82,
       "passes_filter": false,
-      "current_price": 15.585000038146973,
+      "current_price": 15.979999542236328,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Advertising Agencies",
-        "marketCap": 7368511488,
-        "trailingPE": 18.77711,
-        "forwardPE": 14.801835,
-        "priceToBook": 2.7047899,
+        "marketCap": 7556746752,
+        "trailingPE": 23.5,
+        "forwardPE": 14.925931,
+        "priceToBook": 2.7961502,
         "returnOnEquity": 0.12422,
         "profitMargins": 0.110290006,
-        "grossMargins": 0.75573,
+        "grossMargins": 0.75699997,
         "revenueGrowth": -0.005,
         "earningsGrowth": -0.652,
         "debtToEquity": 21.509,
         "currentRatio": 1.791,
-        "targetMeanPrice": 13.56667,
+        "targetMeanPrice": 14.1,
         "recommendationMean": 3.11111
       },
       "profile": null,
@@ -10889,10 +10886,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 13.897000122070313,
-        "ma20": 12.983750057220458,
-        "ma60": 13.169916741053264,
-        "ma200": 19.299600067138673
+        "ma5": 14.414000129699707,
+        "ma20": 13.165500020980835,
+        "ma60": 13.209833399454753,
+        "ma200": 19.217725071907044
       }
     },
     {
@@ -10910,15 +10907,15 @@
       "volume_score": 85.0,
       "news_score": 36.38,
       "passes_filter": true,
-      "current_price": 385.30999755859375,
+      "current_price": 404.7699890136719,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Advertising Agencies",
-        "marketCap": 127661670400,
-        "trailingPE": 25.9468,
-        "forwardPE": 18.471006,
-        "priceToBook": 38.701283,
+        "marketCap": 134109192192,
+        "trailingPE": 27.257238,
+        "forwardPE": 19.403881,
+        "priceToBook": 40.655884,
         "returnOnEquity": 2.1008599,
         "profitMargins": 0.65887,
         "grossMargins": 0.8878,
@@ -10926,8 +10923,8 @@
         "earningsGrowth": 0.755,
         "debtToEquity": 106.592,
         "currentRatio": 3.805,
-        "targetMeanPrice": 459.7874,
-        "recommendationMean": 1.57576
+        "targetMeanPrice": 454.28033,
+        "recommendationMean": 1.59375
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. AppLovin Corporation (APP), Layer 5 AI applications.",
@@ -11392,10 +11389,10 @@
         "track_record"
       ],
       "moving_averages": {
-        "ma5": 362.8760009765625,
-        "ma20": 284.86500015258787,
-        "ma60": 298.75883255004885,
-        "ma200": 407.981400680542
+        "ma5": 391.52000122070314,
+        "ma20": 292.5040000915527,
+        "ma60": 300.5539990743001,
+        "ma200": 407.3384506988525
       }
     },
     {
@@ -11413,14 +11410,14 @@
       "volume_score": null,
       "news_score": 67.87,
       "passes_filter": true,
-      "current_price": 49.48500061035156,
+      "current_price": 49.650001525878906,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 21962864640,
-        "forwardPE": 19.144615,
-        "priceToBook": 6.7593226,
+        "marketCap": 22036094976,
+        "forwardPE": 19.150438,
+        "priceToBook": 6.7818604,
         "returnOnEquity": -0.09663,
         "profitMargins": -0.15595001,
         "grossMargins": 0.78488,
@@ -11617,10 +11614,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 48.73300018310547,
-        "ma20": 42.40325031280518,
-        "ma60": 43.1942502339681,
-        "ma200": 31.78272506713867
+        "ma5": 50.342000579833986,
+        "ma20": 42.85850028991699,
+        "ma60": 43.25700022379557,
+        "ma200": 31.829000072479246
       }
     },
     {
@@ -11638,15 +11635,15 @@
       "volume_score": null,
       "news_score": 36.94,
       "passes_filter": true,
-      "current_price": 90.7699966430664,
+      "current_price": 98.08000183105469,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 26485207040,
-        "trailingPE": 8.420222,
-        "forwardPE": 14.314076,
-        "priceToBook": 2.347419,
+        "marketCap": 28618147840,
+        "trailingPE": 9.0983305,
+        "forwardPE": 15.466836,
+        "priceToBook": 2.5364645,
         "returnOnEquity": 0.32143003,
         "profitMargins": 0.65192,
         "grossMargins": 0.77663004,
@@ -11804,10 +11801,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 90.60399780273437,
-        "ma20": 94.96649971008301,
-        "ma60": 95.55658340454102,
-        "ma200": 92.35079986572265
+        "ma5": 91.88000030517578,
+        "ma20": 95.15400009155273,
+        "ma60": 95.44841690063477,
+        "ma200": 92.36969989776611
       }
     },
     {
@@ -11825,15 +11822,15 @@
       "volume_score": null,
       "news_score": 57.23,
       "passes_filter": false,
-      "current_price": 596.60498046875,
+      "current_price": 609.1199951171875,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 122673954816,
-        "trailingPE": 36.356186,
-        "forwardPE": 34.856728,
-        "priceToBook": 12.486748,
+        "marketCap": 125189660672,
+        "trailingPE": 37.11883,
+        "forwardPE": 35.587917,
+        "priceToBook": 12.748683,
         "returnOnEquity": 0.35811,
         "profitMargins": 0.15726,
         "grossMargins": 0.33115003,
@@ -11841,7 +11838,7 @@
         "earningsGrowth": -0.245,
         "debtToEquity": 5.171,
         "currentRatio": 2.129,
-        "targetMeanPrice": 644.843,
+        "targetMeanPrice": 640.5512,
         "recommendationMean": 1.70732
       },
       "profile": null,
@@ -12031,10 +12028,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 610.156982421875,
-        "ma20": 569.3827484130859,
-        "ma60": 539.2840845743815,
-        "ma200": 500.7332763671875
+        "ma5": 608.3719848632812,
+        "ma20": 574.1214965820312,
+        "ma60": 540.991667175293,
+        "ma200": 501.26845123291014
       }
     },
     {
@@ -12052,15 +12049,15 @@
       "volume_score": null,
       "news_score": 49.93,
       "passes_filter": false,
-      "current_price": 62.744998931884766,
+      "current_price": 64.54000091552734,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Entertainment",
-        "marketCap": 257651425280,
-        "trailingPE": 18.134392,
-        "forwardPE": 16.637323,
-        "priceToBook": 8.797672,
+        "marketCap": 265022291968,
+        "trailingPE": 18.65318,
+        "forwardPE": 17.113281,
+        "priceToBook": 9.0493555,
         "returnOnEquity": 0.53463,
         "profitMargins": 0.29691,
         "grossMargins": 0.50685,
@@ -12068,8 +12065,7 @@
         "earningsGrowth": 0.475,
         "debtToEquity": 59.857,
         "currentRatio": 1.075,
-        "targetMeanPrice": 84.76326,
-        "recommendationMean": 1.92157
+        "targetMeanPrice": 84.76326
       },
       "profile": null,
       "profile_note": "Not in the 2026-11-07 snapshot. Netflix, Inc. (NFLX), Layer 6 Consumer & content.",
@@ -12258,10 +12254,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 64.4109992980957,
-        "ma20": 65.52725009918213,
-        "ma60": 71.99291693369547,
-        "ma200": 80.81527479171753
+        "ma5": 64.14399948120118,
+        "ma20": 65.2515001296997,
+        "ma60": 71.78100032806397,
+        "ma200": 80.71264978408813
       }
     },
     {
@@ -12279,14 +12275,14 @@
       "volume_score": null,
       "news_score": 36.14,
       "passes_filter": false,
-      "current_price": 49.790000915527344,
+      "current_price": 52.61000061035156,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Electronic Gaming & Multimedia",
-        "marketCap": 35635367936,
-        "forwardPE": -39.086544,
-        "priceToBook": -49790.0,
+        "marketCap": 37653680128,
+        "forwardPE": -41.300323,
+        "priceToBook": -52610.0,
         "returnOnEquity": -5.3993297,
         "profitMargins": -0.16482,
         "grossMargins": 0.27311,
@@ -12432,10 +12428,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 49.53000030517578,
-        "ma20": 50.213500022888184,
-        "ma60": 46.148333358764646,
-        "ma200": 51.25200004577637
+        "ma5": 50.46999969482422,
+        "ma20": 50.53699989318848,
+        "ma60": 46.42066669464111,
+        "ma200": 51.16135004043579
       }
     },
     {
@@ -12453,15 +12449,15 @@
       "volume_score": null,
       "news_score": 67.07,
       "passes_filter": false,
-      "current_price": 155.0749969482422,
+      "current_price": 164.1199951171875,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Software - Application",
-        "marketCap": 7316168704,
-        "trailingPE": 51.34934,
-        "forwardPE": 19.848204,
-        "priceToBook": 4.930529,
+        "marketCap": 7742895616,
+        "trailingPE": 54.344368,
+        "forwardPE": 21.00588,
+        "priceToBook": 5.21811,
         "returnOnEquity": 0.104499996,
         "profitMargins": 0.12327,
         "grossMargins": 0.72810996,
@@ -12469,7 +12465,7 @@
         "earningsGrowth": -0.909,
         "debtToEquity": 5.684,
         "currentRatio": 2.753,
-        "targetMeanPrice": 150.87167,
+        "targetMeanPrice": 152.53833,
         "recommendationMean": 2.625
       },
       "profile": null,
@@ -12659,10 +12655,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 157.60700073242188,
-        "ma20": 143.41324996948242,
-        "ma60": 145.76858393351236,
-        "ma200": 123.84075019836426
+        "ma5": 158.49599914550782,
+        "ma20": 144.7125,
+        "ma60": 146.2031672159831,
+        "ma200": 123.93892517089844
       }
     },
     {
@@ -12680,15 +12676,15 @@
       "volume_score": null,
       "news_score": 44.38,
       "passes_filter": false,
-      "current_price": 118.81999969482422,
+      "current_price": 119.6500015258789,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Entertainment",
-        "marketCap": 205164937216,
-        "trailingPE": 24.49897,
-        "forwardPE": 15.843067,
-        "priceToBook": 1.8681802,
+        "marketCap": 206598078464,
+        "trailingPE": 24.670103,
+        "forwardPE": 15.953737,
+        "priceToBook": 1.8812301,
         "returnOnEquity": 0.0801,
         "profitMargins": 0.086990006,
         "grossMargins": 0.37595,
@@ -12886,10 +12882,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 118.17200012207032,
-        "ma20": 112.93349990844726,
-        "ma60": 108.40133323669434,
-        "ma200": 103.62845031738281
+        "ma5": 118.39000091552734,
+        "ma20": 113.48600006103516,
+        "ma60": 108.66949996948242,
+        "ma200": 103.67560031890869
       }
     },
     {
@@ -12969,15 +12965,15 @@
       "volume_score": null,
       "news_score": 70.02,
       "passes_filter": false,
-      "current_price": 26.6299991607666,
+      "current_price": 26.489999771118164,
       "price_note": null,
       "info": {
         "sector": "Technology",
         "industry": "Consumer Electronics",
-        "marketCap": 155206385664,
-        "trailingPE": 19.873133,
-        "forwardPE": 22.378149,
-        "priceToBook": 2.8765006,
+        "marketCap": 154390446080,
+        "trailingPE": 19.768656,
+        "forwardPE": 22.260504,
+        "priceToBook": 2.8613782,
         "returnOnEquity": 0.15049,
         "profitMargins": -0.010290001,
         "grossMargins": 0.33446997,
@@ -13175,10 +13171,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 26.836000061035158,
-        "ma20": 25.701499938964844,
-        "ma60": 24.483333333333334,
-        "ma200": 22.391950025558472
+        "ma5": 26.95999984741211,
+        "ma20": 25.811999893188478,
+        "ma60": 24.53566665649414,
+        "ma200": 22.411800022125245
       }
     },
     {
@@ -13196,15 +13192,15 @@
       "volume_score": null,
       "news_score": 43.31,
       "passes_filter": false,
-      "current_price": 18.645000457763672,
+      "current_price": 19.229999542236328,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 10693053440,
-        "trailingPE": 77.6875,
-        "forwardPE": 8.191644,
-        "priceToBook": 3.4394023,
+        "marketCap": 11028555776,
+        "trailingPE": 80.125,
+        "forwardPE": 8.448662,
+        "priceToBook": 3.5473158,
         "returnOnEquity": 0.04498,
         "profitMargins": 0.0381,
         "grossMargins": 0.78968,
@@ -13402,10 +13398,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 19.53499984741211,
-        "ma20": 21.01274995803833,
-        "ma60": 20.667249902089438,
-        "ma200": 20.5070250415802
+        "ma5": 19.197999954223633,
+        "ma20": 20.901499938964843,
+        "ma60": 20.608499908447264,
+        "ma200": 20.4876500415802
       }
     },
     {
@@ -13423,14 +13419,14 @@
       "volume_score": null,
       "news_score": 24.88,
       "passes_filter": false,
-      "current_price": 4.885000228881836,
+      "current_price": 5.340000152587891,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 8434328064,
-        "forwardPE": 6.206327,
-        "priceToBook": 3.760585,
+        "marketCap": 9219919872,
+        "forwardPE": 6.7884526,
+        "priceToBook": 4.1108546,
         "returnOnEquity": -0.06784,
         "profitMargins": -0.02303,
         "grossMargins": 0.59243,
@@ -13627,10 +13623,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 5.181000137329102,
-        "ma20": 5.835250043869019,
-        "ma60": 5.67108333905538,
-        "ma200": 5.360125008821488
+        "ma5": 5.088000106811523,
+        "ma20": 5.803000044822693,
+        "ma60": 5.676833335558573,
+        "ma200": 5.3501000082492824
       }
     },
     {
@@ -13648,15 +13644,15 @@
       "volume_score": null,
       "news_score": 49.15,
       "passes_filter": true,
-      "current_price": 95.80999755859375,
+      "current_price": 105.66000366210938,
       "price_note": null,
       "info": {
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "marketCap": 18500308992,
-        "trailingPE": 19.55306,
-        "forwardPE": 10.31796,
-        "priceToBook": 5.165795,
+        "marketCap": 20402284544,
+        "trailingPE": 21.563265,
+        "forwardPE": 11.378725,
+        "priceToBook": 5.696878,
         "returnOnEquity": 0.32029998,
         "profitMargins": 0.32105,
         "grossMargins": 0.91547996,
@@ -13854,10 +13850,10 @@
         "composite carried forward"
       ],
       "moving_averages": {
-        "ma5": 97.47999877929688,
-        "ma20": 126.40699996948243,
-        "ma60": 144.2211669921875,
-        "ma200": 155.03125007629396
+        "ma5": 98.80599975585938,
+        "ma20": 124.40299987792969,
+        "ma60": 143.39233373006184,
+        "ma200": 154.59235008239747
       }
     }
   ]
