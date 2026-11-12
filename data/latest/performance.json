@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-12T08:53:43",
+  "snapshot_time": "2026-11-12T21:07:01",
   "summary": {
     "total_recommendations": 33,
     "completed_1m": 27,
@@ -58,13 +58,13 @@
     }
   ],
   "cumulative": {
-    "strategy_cumulative_return": 0.372479,
-    "spy_cumulative_return": 0.079153,
-    "outperformance": 0.293326,
-    "trading_days": 143,
+    "strategy_cumulative_return": 0.352574,
+    "spy_cumulative_return": 0.075517,
+    "outperformance": 0.277057,
+    "trading_days": 144,
     "date_range": {
       "start": "2026-04-21",
-      "end": "2026-11-11"
+      "end": "2026-11-12"
     },
     "strategy_equity_curve": [
       0.0,
@@ -209,7 +209,8 @@
       0.342985,
       0.342985,
       0.332274,
-      0.372479
+      0.372479,
+      0.352574
     ],
     "spy_equity_curve": [
       0.0,
@@ -354,7 +355,8 @@
       0.044327,
       0.06904,
       0.065106,
-      0.079153
+      0.079153,
+      0.075517
     ],
     "dates": [
       "2026-04-21",
@@ -499,7 +501,8 @@
       "2026-11-06",
       "2026-11-09",
       "2026-11-10",
-      "2026-11-11"
+      "2026-11-11",
+      "2026-11-12"
     ]
   },
   "concentration": {
@@ -507,63 +510,63 @@
       "MU": {
         "picks": 6,
         "avg_return_1m": 0.8632011666666667,
-        "contribution": 0.301215
+        "contribution": 0.296847
       },
       "WDC": {
         "picks": 3,
         "avg_return_1m": 0.13002766666666668,
-        "contribution": 0.051193
+        "contribution": 0.050451
       },
       "LRCX": {
-        "picks": 2,
+        "picks": 1,
         "avg_return_1m": null,
-        "contribution": 0.029066
+        "contribution": 0.032407
       },
       "NVDA": {
         "picks": 1,
         "avg_return_1m": -0.005891,
-        "contribution": 0.01307
+        "contribution": 0.012881
       },
       "GOOGL": {
         "picks": 2,
         "avg_return_1m": 0.0024090000000000006,
-        "contribution": 0.012778
+        "contribution": 0.012593
       },
       "INTU": {
         "picks": 1,
         "avg_return_1m": null,
-        "contribution": -0.005645
+        "contribution": -0.000537
       },
       "APP": {
         "picks": 2,
         "avg_return_1m": null,
-        "contribution": -0.023499
+        "contribution": -0.032159
       },
       "PATH": {
         "picks": 1,
         "avg_return_1m": -0.019481,
-        "contribution": -0.069696
+        "contribution": -0.068685
       },
       "TSM": {
-        "picks": 7,
+        "picks": 8,
         "avg_return_1m": 0.06250914285714286,
-        "contribution": -0.085968
+        "contribution": -0.08472
       },
       "SMCI": {
         "picks": 1,
         "avg_return_1m": -0.426613,
-        "contribution": -0.103449
+        "contribution": -0.101948
       },
       "MSFT": {
         "picks": 6,
         "avg_return_1m": 0.03183933333333333,
-        "contribution": -0.122325
+        "contribution": -0.120551
       }
     },
     "top_contributor": {
       "ticker": "MU",
-      "contribution": 0.301215,
-      "share_of_outperformance": 1.0269,
+      "contribution": 0.296847,
+      "share_of_outperformance": 1.0714,
       "picks": 6
     },
     "concentration_warning": "Performance is highly concentrated in one name, so the sample is a weak representation"
