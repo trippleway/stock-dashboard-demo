@@ -89,7 +89,7 @@ def resolve_snapshot(root: Path | None = None) -> tuple[Path, str]:
     return baseline, "baseline"
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl=600)  # data/latest is replaced each weekday; re-read it
 def _read_json(path: str) -> dict[str, Any]:
     """Read one JSON object from disk."""
     with open(path, encoding="utf-8") as handle:
@@ -97,7 +97,7 @@ def _read_json(path: str) -> dict[str, Any]:
     return payload if isinstance(payload, dict) else {}
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl=600)  # data/latest is replaced each weekday; re-read it
 def _read_table(path: str) -> pd.DataFrame:
     """Read a CSV snapshot."""
     return pd.read_csv(path)
