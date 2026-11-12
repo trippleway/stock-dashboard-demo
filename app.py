@@ -313,10 +313,10 @@ def render_daily(data: dict[str, Any]) -> None:
     st.title("Daily picks")
     daily = data["daily"]
     market = daily.get("market_overview") if isinstance(daily.get("market_overview"), dict) else {}
-    pick_date = str(daily.get("date") or "2026-11-07")
-    price_as_of = str(data["manifest"].get("as_of") or pick_date)
+    pick_date = str(data["manifest"].get("pick_date") or daily.get("date") or "—")
     st.caption(
-        f"Prices refresh daily (as of {price_as_of}); picks, news, sentiment, and forecasts are carried forward from {pick_date}."
+        f"Picks for {pick_date}, computed from the previous trading day's close. "
+        "The snapshot is regenerated each weekday before the US open."
     )
     st.caption(
         f"SPY {_price(market.get('spy_price'))} ({_pct(market.get('spy_change_pct'), 2)}) · "
@@ -627,8 +627,11 @@ def render_deep(data: dict[str, Any]) -> None:
             summary = str(news.get("summary") or "").strip()
             st.markdown("**News summary**")
             st.write(summary or MISSING)
-            if "carried forward" in " ".join(str(item) for item in (row.get("carried_forward") or [])):
-                st.caption("Sentiment and the summary were carried forward. This refresh does not run FinBERT or Claude.")
+            carried_forward = row.get("carried_forward")
+            if isinstance(carried_forward, list) and carried_forward and any(
+                "carried forward" in str(item) for item in carried_forward
+            ):
+                st.caption("Sentiment and the summary were carried forward from the previous snapshot.")
             articles = news.get("analyzed_news") if isinstance(news.get("analyzed_news"), list) else []
             if not articles:
                 st.caption(MISSING)

@@ -8,24 +8,7 @@ The parent research project is https://github.com/trippleway/stock-analysis-dash
 
 ## Daily refresh
 
-GitHub Actions runs `.github/workflows/daily_snapshot.yml` every day at 15:00 UTC, after the US cash open, and on manual dispatch. The job runs `python scripts/refresh_snapshot.py`.
-
-The job updates `data/latest` only:
-
-- It replaces price history from public Yahoo Finance quotes when a ticker download succeeds.
-- It refreshes the latest close and moving averages from those prices.
-- It recomputes a composite only when the stored component scores are already present.
-
-The same job carries these forward and does not rebuild them:
-
-- Daily picks, including rank, scores, news, sentiment, and written rationale
-- Company profiles
-- Stored Prophet forecast paths
-- `recommendations.csv` and `performance.json`
-
-It does not run FinBERT or Claude, and it does not refit forecasts. `data/baseline` is never written. If the refresh fails validation, the job does not commit, so `data/latest` and `data/baseline` stay as they were. A successful run commits only `data/latest`.
-
-The app opens `data/latest` when that snapshot parses. If it does not, the app opens `data/baseline`.
+The parent repository's [`.github/workflows/daily_pipeline.yml`](https://github.com/trippleway/stock-analysis-dashboard/blob/main/.github/workflows/daily_pipeline.yml) runs the full pipeline — prices, fundamentals, FinBERT sentiment, Prophet forecasts, and Claude summaries — at 8:30 New York time on weekdays and pushes the result to `data/latest` here. `data/baseline` remains the fallback if a snapshot fails to parse.
 
 ## Run locally
 
