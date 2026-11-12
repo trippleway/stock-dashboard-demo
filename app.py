@@ -862,18 +862,32 @@ def render_performance(data: dict[str, Any]) -> None:
                 f"#### {period['title_start']} to {period['title_end']} · "
                 f"{period['recommendations']} recommendations"
             )
-            c1, c2, c3, c4, c5 = st.columns(5)
             strategy_return = period["strategy"][-1]
             spy_return = period["spy"][-1]
-            c1.metric("Recommendations", period["recommendations"])
-            c2.metric("Completed 1-month tracks", period["completed_1m"])
-            c3.metric("Strategy return", _frac(strategy_return))
-            c4.metric("SPY return", _frac(spy_return))
-            c5.metric("Excess return", _frac(strategy_return - spy_return))
+            metrics = (
+                ("Recommendations", str(period["recommendations"])),
+                ("Completed 1-month tracks", str(period["completed_1m"])),
+                ("Strategy return", _frac(strategy_return, digits=1)),
+                ("SPY return", _frac(spy_return, digits=1)),
+                ("Excess return", _frac(strategy_return - spy_return, digits=1)),
+            )
+            st.markdown(
+                "<div class='period-metrics'>"
+                + "".join(
+                    "<div class='period-metric'>"
+                    f"<div class='period-metric-label'>{html.escape(label)}</div>"
+                    f"<div class='period-metric-value'>{html.escape(value)}</div>"
+                    "</div>"
+                    for label, value in metrics
+                )
+                + "</div>",
+                unsafe_allow_html=True,
+            )
             fig = go.Figure()
+            chart_dates = pd.to_datetime(period["dates"])
             fig.add_trace(
                 go.Scatter(
-                    x=period["dates"],
+                    x=chart_dates,
                     y=period["strategy"],
                     name="Strategy",
                     line=dict(color=ACCENT, width=2.4),
@@ -881,14 +895,22 @@ def render_performance(data: dict[str, Any]) -> None:
             )
             fig.add_trace(
                 go.Scatter(
-                    x=period["dates"],
+                    x=chart_dates,
                     y=period["spy"],
                     name="SPY buy-and-hold",
                     line=dict(color=TEXT_DIM, width=2),
                 )
             )
             fig.add_hline(y=0, line_dash="dot", line_color=BORDER)
-            fig.update_yaxes(tickformat=".0%")
+            if len(chart_dates) <= 10:
+                fig.update_xaxes(
+                    tickmode="array",
+                    tickvals=chart_dates,
+                    ticktext=[date.strftime("%b %-d") for date in chart_dates],
+                )
+            else:
+                fig.update_xaxes(dtick="M1", tickformat="%b %d")
+            fig.update_yaxes(tickformat=".1%", nticks=6)
             st.plotly_chart(_style(fig, 460), use_container_width=True)
         if breaks:
             messages = [
@@ -1005,6 +1027,10 @@ def _css() -> None:
 .stApp {background:#fff; color:#10141A;}
 .banner {background:#F7F8FA; border:1px solid #E3E6EA; padding:8px 12px; border-radius:6px;}
 h1 {font-size:24px !important;}
+.period-metrics {display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:8px; margin:4px 0 10px;}
+.period-metric {border:1px solid #E3E6EA; border-radius:6px; padding:8px 10px; min-width:0;}
+.period-metric-label {color:#5B6472; font-size:12px; line-height:1.25;}
+.period-metric-value {color:#10141A; font-size:20px; font-variant-numeric:tabular-nums; line-height:1.25; white-space:nowrap;}
 </style>
         """,
         unsafe_allow_html=True,
