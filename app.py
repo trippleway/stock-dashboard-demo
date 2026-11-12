@@ -217,6 +217,142 @@ def _style(fig: go.Figure, height: int) -> go.Figure:
     return fig
 
 
+def _live_performance_periods(
+    cumulative: dict[str, Any], recommendations: pd.DataFrame
+) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
+    """Split cumulative-return data around long flat strategy runs.
+
+    Args:
+        cumulative: Stored dates and strategy/SPY cumulative-return curves.
+        recommendations: Logged recommendation rows used to count each live period.
+
+    Returns:
+        Chart-ready live periods and detected breaks. A break is at least ten
+        consecutive trading dates with an unchanged strategy curve.
+    """
+    dates = cumulative.get("dates") or []
+    strategy = cumulative.get("strategy_equity_curve") or []
+    spy = cumulative.get("spy_equity_curve") or []
+    size = min(len(dates), len(strategy), len(spy))
+    if size == 0:
+        return [], []
+
+    points: list[dict[str, Any]] = []
+    for index in range(size):
+        strategy_value = _num(strategy[index])
+        spy_value = _num(spy[index])
+        date = pd.to_datetime(dates[index], errors="coerce")
+        if strategy_value is None or spy_value is None or pd.isna(date):
+            continue
+        points.append(
+            {
+                "date": date,
+                "date_text": str(dates[index]),
+                "strategy": strategy_value,
+                "spy": spy_value,
+            }
+        )
+    if not points:
+        return [], []
+
+    recs = recommendations.copy()
+    recs["_period_date"] = pd.to_datetime(recs.get("date"), errors="coerce")
+    completed = pd.to_numeric(recs.get("return_1m"), errors="coerce").notna()
+
+    raw_flat_runs: list[tuple[int, int]] = []
+    run_start = 0
+    for index in range(1, len(points) + 1):
+        if index < len(points) and np.isclose(points[index]["strategy"], points[index - 1]["strategy"]):
+            continue
+        if index - run_start >= 10:
+            raw_flat_runs.append((run_start, index - 1))
+        run_start = index
+
+    flat_runs: list[tuple[int, int]] = []
+    for run_start, run_end in raw_flat_runs:
+        resumed = recs.loc[
+            (recs["_period_date"] > points[run_start]["date"])
+            & (recs["_period_date"] <= points[run_end]["date"]),
+            "_period_date",
+        ].min()
+        if pd.notna(resumed):
+            eligible = [
+                index
+                for index in range(run_start, run_end + 1)
+                if points[index]["date"] < resumed
+            ]
+            if eligible:
+                run_end = eligible[-1]
+        if run_end - run_start + 1 >= 10:
+            flat_runs.append((run_start, run_end))
+
+    segments: list[tuple[int, int]] = []
+    segment_start = 0
+    for break_start, break_end in flat_runs:
+        if segment_start < break_start:
+            segments.append((segment_start, break_start - 1))
+        segment_start = break_end + 1
+    if segment_start < len(points):
+        segments.append((segment_start, len(points) - 1))
+
+    breaks = [
+        {
+            "start": points[start]["date_text"],
+            "end": points[end]["date_text"],
+            "last_recommendation_before": _nearest_recommendation_date(recs, points[start]["date"], before=True),
+            "first_recommendation_after": _nearest_recommendation_date(recs, points[end]["date"], before=False),
+        }
+        for start, end in flat_runs
+    ]
+
+    periods: list[dict[str, Any]] = []
+    for index, (start, end) in enumerate(segments):
+        left = pd.Timestamp.min if index == 0 else points[flat_runs[index - 1][1]]["date"]
+        right = pd.Timestamp.max if index == len(segments) - 1 else points[flat_runs[index][0]]["date"]
+        in_period = (recs["_period_date"] < right) if index == 0 else (recs["_period_date"] > left)
+        if 0 < index < len(segments) - 1:
+            in_period &= recs["_period_date"] < right
+        period_recs = recs[in_period].copy()
+        period_points = points[start : end + 1]
+        strategy_base = 1.0 + period_points[0]["strategy"]
+        spy_base = 1.0 + period_points[0]["spy"]
+        recommendation_dates = period_recs["_period_date"].dropna()
+        title_start = min([period_points[0]["date"], *recommendation_dates])
+        title_end = max([period_points[-1]["date"], *recommendation_dates])
+        periods.append(
+            {
+                "title_start": title_start.strftime("%Y-%m-%d"),
+                "title_end": title_end.strftime("%Y-%m-%d"),
+                "dates": [point["date_text"] for point in period_points],
+                "strategy": [(1.0 + point["strategy"]) / strategy_base - 1.0 for point in period_points],
+                "spy": [(1.0 + point["spy"]) / spy_base - 1.0 for point in period_points],
+                "recommendations": len(period_recs),
+                "completed_1m": int(completed.loc[period_recs.index].sum()),
+            }
+        )
+    return periods, breaks
+
+
+def _nearest_recommendation_date(recommendations: pd.DataFrame, boundary: pd.Timestamp, before: bool) -> str:
+    """Return the nearest recommendation date on one side of a curve break.
+
+    Args:
+        recommendations: Recommendation rows with a parsed ``_period_date`` column.
+        boundary: First or last date of a flat curve run.
+        before: True for the most recent date before the boundary; False for the
+            first date after it.
+
+    Returns:
+        An ISO date, or an em dash when no matching recommendation exists.
+    """
+    dates = recommendations["_period_date"].dropna()
+    eligible = dates[dates < boundary] if before else dates[dates > boundary]
+    if eligible.empty:
+        return "—"
+    value = eligible.max() if before else eligible.min()
+    return value.strftime("%Y-%m-%d")
+
+
 def _prices_for(prices: pd.DataFrame, ticker: str) -> pd.DataFrame:
     """Return one ticker's OHLCV rows."""
     frame = prices[prices["ticker"].astype(str) == ticker].copy()
@@ -707,7 +843,7 @@ def render_overview(data: dict[str, Any]) -> None:
 
 
 def render_performance(data: dict[str, Any]) -> None:
-    """Track-record metrics, equity curve, leave-one-out attribution, and history."""
+    """Track-record metrics, live-period charts, attribution, and history."""
     st.title("Strategy performance")
     perf = data["performance"]
     summary = perf.get("summary") if isinstance(perf.get("summary"), dict) else {}
@@ -718,28 +854,52 @@ def render_performance(data: dict[str, Any]) -> None:
         f"Recommendation window: {date_range.get('first', '—')} ~ {date_range.get('last', '—')} · "
         f"snapshot {perf.get('snapshot_time') or '—'}"
     )
-    strategy = _num(cumulative.get("strategy_cumulative_return"))
-    spy = _num(cumulative.get("spy_cumulative_return"))
-    excess = _num(cumulative.get("outperformance"))
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Recommendations", summary.get("total_recommendations"))
-    c2.metric("1M tracking complete", summary.get("completed_1m"))
-    c3.metric("Strategy cumulative return", _frac(strategy))
-    c4.metric("Excess return vs SPY", _frac(excess))
-    if spy is not None:
-        st.caption(f"SPY buy-and-hold over the same window: {_frac(spy)}")
-    st.subheader("Cumulative return")
-    dates = cumulative.get("dates") or []
-    strategy_curve = cumulative.get("strategy_equity_curve") or []
-    spy_curve = cumulative.get("spy_equity_curve") or []
-    if dates and strategy_curve:
-        fig = go.Figure()
-        fig.add_trace(go.Scatter(x=dates, y=strategy_curve, name="Strategy", line=dict(color=ACCENT, width=2.4)))
-        if spy_curve:
-            fig.add_trace(go.Scatter(x=dates, y=spy_curve, name="SPY buy-and-hold", line=dict(color=TEXT_DIM, width=2)))
-        fig.add_hline(y=0, line_dash="dot", line_color=BORDER)
-        fig.update_yaxes(tickformat=".0%")
-        st.plotly_chart(_style(fig, 460), use_container_width=True)
+    periods, breaks = _live_performance_periods(cumulative, data["recommendations"])
+    if periods:
+        st.subheader("Live periods")
+        for period in reversed(periods):
+            st.markdown(
+                f"#### {period['title_start']} to {period['title_end']} · "
+                f"{period['recommendations']} recommendations"
+            )
+            c1, c2, c3, c4, c5 = st.columns(5)
+            strategy_return = period["strategy"][-1]
+            spy_return = period["spy"][-1]
+            c1.metric("Recommendations", period["recommendations"])
+            c2.metric("Completed 1-month tracks", period["completed_1m"])
+            c3.metric("Strategy return", _frac(strategy_return))
+            c4.metric("SPY return", _frac(spy_return))
+            c5.metric("Excess return", _frac(strategy_return - spy_return))
+            fig = go.Figure()
+            fig.add_trace(
+                go.Scatter(
+                    x=period["dates"],
+                    y=period["strategy"],
+                    name="Strategy",
+                    line=dict(color=ACCENT, width=2.4),
+                )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=period["dates"],
+                    y=period["spy"],
+                    name="SPY buy-and-hold",
+                    line=dict(color=TEXT_DIM, width=2),
+                )
+            )
+            fig.add_hline(y=0, line_dash="dot", line_color=BORDER)
+            fig.update_yaxes(tickformat=".0%")
+            st.plotly_chart(_style(fig, 460), use_container_width=True)
+        if breaks:
+            messages = [
+                "No recommendations were logged from "
+                f"{break_info['last_recommendation_before']} to {break_info['first_recommendation_after']}."
+                for break_info in breaks
+            ]
+            st.caption(
+                " ".join(messages)
+                + " Each period is shown on its own so the break is not drawn as a held position."
+            )
     else:
         st.info("No equity curve in this snapshot.")
     st.subheader("Attribution (leave-one-out)")
@@ -779,7 +939,8 @@ def render_performance(data: dict[str, Any]) -> None:
     name = top.get("ticker") or "—"
     if concentration.get("concentration_warning"):
         st.warning(
-            f"Performance is concentrated in one name ({name} contributes {share_txt}%). "
+            "Across all completed recommendations, performance is concentrated in one name "
+            f"({name} contributes {share_txt}%). "
             "The sample is too narrow to treat the stock-picking result as consistent."
         )
     st.caption(
