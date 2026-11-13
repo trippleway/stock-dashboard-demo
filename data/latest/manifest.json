@@ -1,7 +1,7 @@
 {
  "snapshot_id": "latest",
- "as_of": "2026-11-12",
- "pick_date": "2026-11-12",
+ "as_of": "2026-11-13",
+ "pick_date": "2026-11-13",
  "source": "Full pipeline run: Yahoo Finance prices and fundamentals, FinBERT sentiment, Prophet forecasts, Claude summaries",
  "updated_tickers": 59,
  "scored_tickers": 58,
