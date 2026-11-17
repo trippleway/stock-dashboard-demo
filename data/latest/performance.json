@@ -1,15 +1,15 @@
 {
-  "snapshot_time": "2026-11-16T23:06:17",
+  "snapshot_time": "2026-11-17T21:59:44",
   "summary": {
-    "total_recommendations": 39,
+    "total_recommendations": 42,
     "completed_1m": 27,
     "date_range": {
       "first": "2026-04-21",
-      "last": "2026-11-16"
+      "last": "2026-11-17"
     }
   },
   "aggregate": {
-    "avg_return_1d": 0.02036361111111111,
+    "avg_return_1d": 0.016772410256410256,
     "avg_return_1w": 0.07661186666666667,
     "avg_return_2w": 0.11774725925925926,
     "avg_return_1m": 0.21298974074074073,
@@ -58,13 +58,13 @@
     }
   ],
   "cumulative": {
-    "strategy_cumulative_return": 0.32238,
-    "spy_cumulative_return": 0.050946,
-    "outperformance": 0.271434,
-    "trading_days": 146,
+    "strategy_cumulative_return": 0.284407,
+    "spy_cumulative_return": 0.040279,
+    "outperformance": 0.244128,
+    "trading_days": 147,
     "date_range": {
       "start": "2026-04-21",
-      "end": "2026-11-16"
+      "end": "2026-11-17"
     },
     "strategy_equity_curve": [
       0.0,
@@ -212,7 +212,8 @@
       0.372479,
       0.352574,
       0.359252,
-      0.32238
+      0.32238,
+      0.284407
     ],
     "spy_equity_curve": [
       0.0,
@@ -360,7 +361,8 @@
       0.079153,
       0.075332,
       0.071427,
-      0.050946
+      0.050946,
+      0.040279
     ],
     "dates": [
       "2026-04-21",
@@ -508,7 +510,8 @@
       "2026-11-11",
       "2026-11-12",
       "2026-11-13",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ]
   },
   "concentration": {
@@ -516,73 +519,78 @@
       "MU": {
         "picks": 6,
         "avg_return_1m": 0.8632011666666667,
-        "contribution": 0.29022
+        "contribution": 0.281885
       },
       "WDC": {
         "picks": 3,
         "avg_return_1m": 0.13002766666666668,
-        "contribution": 0.049325
+        "contribution": 0.047908
       },
       "LRCX": {
         "picks": 1,
         "avg_return_1m": null,
-        "contribution": 0.01515
+        "contribution": 0.018048
       },
       "NVDA": {
         "picks": 1,
         "avg_return_1m": -0.005891,
-        "contribution": 0.012593
+        "contribution": 0.012231
       },
       "GOOGL": {
         "picks": 3,
         "avg_return_1m": 0.0024090000000000006,
-        "contribution": 0.01002
+        "contribution": 0.011677
       },
       "APP": {
-        "picks": 3,
+        "picks": 4,
         "avg_return_1m": null,
-        "contribution": 0.008065
+        "contribution": 0.003236
       },
-      "INTU": {
+      "AMAT": {
         "picks": 1,
         "avg_return_1m": null,
-        "contribution": 0.005891
+        "contribution": 0.003102
       },
       "U": {
         "picks": 1,
         "avg_return_1m": null,
-        "contribution": 0.001617
+        "contribution": 0.0015
+      },
+      "INTU": {
+        "picks": 1,
+        "avg_return_1m": null,
+        "contribution": 0.000579
       },
       "AMZN": {
         "picks": 1,
         "avg_return_1m": null,
-        "contribution": -0.003136
+        "contribution": 0.000479
       },
       "PATH": {
         "picks": 1,
         "avg_return_1m": -0.019481,
-        "contribution": -0.067152
+        "contribution": -0.065224
       },
       "SMCI": {
         "picks": 1,
         "avg_return_1m": -0.426613,
-        "contribution": -0.099672
+        "contribution": -0.096811
       },
       "TSM": {
-        "picks": 10,
+        "picks": 11,
         "avg_return_1m": 0.06250914285714286,
-        "contribution": -0.103906
+        "contribution": -0.104789
       },
       "MSFT": {
         "picks": 6,
         "avg_return_1m": 0.03183933333333333,
-        "contribution": -0.117859
+        "contribution": -0.114476
       }
     },
     "top_contributor": {
       "ticker": "MU",
-      "contribution": 0.29022,
-      "share_of_outperformance": 1.0692,
+      "contribution": 0.281885,
+      "share_of_outperformance": 1.1547,
       "picks": 6
     },
     "concentration_warning": "Performance is highly concentrated in one name, so the sample is a weak representation"
