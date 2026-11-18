@@ -12,8 +12,10 @@ from __future__ import annotations
 
 import html
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
@@ -450,10 +452,36 @@ def render_daily(data: dict[str, Any]) -> None:
     daily = data["daily"]
     market = daily.get("market_overview") if isinstance(daily.get("market_overview"), dict) else {}
     pick_date = str(data["manifest"].get("pick_date") or daily.get("date") or "—")
-    st.caption(
-        f"Picks for {pick_date}, computed from the previous trading day's close. "
-        "The snapshot is regenerated each weekday before the US open."
+    manifest = data["manifest"] if isinstance(data.get("manifest"), dict) else {}
+    caption = (
+        f"Picks for {pick_date}. A new snapshot is built each NYSE trading day at 8:30 AM ET."
     )
+    try:
+        generated_raw = manifest.get("generated_at")
+        close_raw = manifest.get("close_date")
+        if generated_raw and close_raw:
+            months = (
+                "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+            )
+            generated = datetime.fromisoformat(
+                str(generated_raw).replace("Z", "+00:00")
+            ).astimezone(ZoneInfo("America/New_York"))
+            close = datetime.strptime(str(close_raw), "%Y-%m-%d")
+            hour = generated.hour % 12 or 12
+            ampm = "AM" if generated.hour < 12 else "PM"
+            caption = (
+                f"Picks for {pick_date}, computed from the "
+                f"{months[close.month - 1]} {close.day} close. "
+                f"Generated {months[generated.month - 1]} {generated.day}, "
+                f"{hour}:{generated.minute:02d} {ampm} ET. "
+                "A new snapshot is built each NYSE trading day at 8:30 AM ET."
+            )
+    except Exception:
+        caption = (
+            f"Picks for {pick_date}. A new snapshot is built each NYSE trading day at 8:30 AM ET."
+        )
+    st.caption(caption)
     st.caption(
         f"SPY {_price(market.get('spy_price'))} ({_pct(market.get('spy_change_pct'), 2)}) · "
         f"analyzed {market.get('total_analyzed', '—')}, passed filter {market.get('passed_filter', '—')}"

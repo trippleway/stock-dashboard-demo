@@ -8,7 +8,7 @@ The parent research project is https://github.com/trippleway/stock-analysis-dash
 
 ## Daily refresh
 
-The parent repository's [`.github/workflows/daily_pipeline.yml`](https://github.com/trippleway/stock-analysis-dashboard/blob/main/.github/workflows/daily_pipeline.yml) runs the full pipeline — prices, fundamentals, FinBERT sentiment, Prophet forecasts, and Claude summaries — at 8:30 New York time on weekdays and pushes the result to `data/latest` here. `data/baseline` remains the fallback if a snapshot fails to parse.
+An external scheduler triggers the parent repository's [`.github/workflows/daily_pipeline.yml`](https://github.com/trippleway/stock-analysis-dashboard/blob/main/.github/workflows/daily_pipeline.yml) at 8:30 AM New York time on NYSE trading days; a later GitHub cron acts as a fallback and skips if that day's snapshot already exists. The pipeline runs prices, fundamentals, FinBERT sentiment, Prophet forecasts, and Claude summaries, and pushes the result to `data/latest` here. `data/baseline` remains the fallback if a snapshot fails to parse.
 
 ## Run locally
 
