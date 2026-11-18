@@ -1,6 +1,466 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "picks": [
+  {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing Company Limited",
+   "current_price": 359.69,
+   "sector": "semiconductor",
+   "technical": {
+    "total_score": 54.5,
+    "sub_scores": {
+     "rsi": 75.0,
+     "macd": 40.0,
+     "bollinger": 45.0,
+     "ma_trend": 55.0,
+     "volume": 60.0
+    },
+    "signals": {
+     "rsi": "Neutral",
+     "macd": "Still bearish",
+     "bollinger": "Below the middle band",
+     "ma_trend": "Consolidating",
+     "volume": "Normal"
+    },
+    "current_values": {
+     "rsi": 35.65359344311733,
+     "macd_dif": -14.162859208804832,
+     "macd_dea": -11.959852609144553,
+     "macd_hist": -2.203006599660279,
+     "price_vs_ma20": -10.801900152175625,
+     "close": 359.69000244140625,
+     "vol_ratio": 1.6178300237092433,
+     "adx": 30.997049948982077,
+     "kd_k": 12.955345065928402,
+     "kd_d": 39.78053944633907,
+     "ma5": 390.1420043945312,
+     "ma20": 403.24850311279295,
+     "ma60": 426.33933410644534,
+     "ma200": 403.35815063476565,
+     "bb_upper": 450.98171580345337,
+     "bb_middle": 403.24850311279295,
+     "bb_lower": 355.5152904221325,
+     "roc": -11.434762731900678,
+     "atr": 17.914447525185487,
+     "hv20": 0.6536061258902349
+    }
+   },
+   "fundamental": {
+    "ticker": "TSM",
+    "total_score": 93.5,
+    "sub_scores": {
+     "growth": 95.0,
+     "profitability": 100.0,
+     "financial_health": 100.0,
+     "industry_outlook": 75.0
+    },
+    "details": {
+     "revenue_growth": 0.509,
+     "earnings_growth": 0.687,
+     "gross_margin": 0.65846,
+     "profit_margin": 0.51116,
+     "roe": 0.4186,
+     "debt_to_equity": 0.15188000000000001,
+     "debt_to_equity_raw": 15.188,
+     "current_ratio": 2.584,
+     "sector": "Technology",
+     "mapped_sector": "semiconductor",
+     "industry": "Semiconductors",
+     "market_cap": 1865522479104.0,
+     "trailing_pe": 24.20525,
+     "forward_pe": 15.381037,
+     "price_to_book": 69.08984
+    },
+    "signals": {
+     "growth": "High Growth",
+     "profitability": "Excellent",
+     "financial_health": "Healthy",
+     "industry_outlook": "In favor"
+    }
+   },
+   "valuation": {
+    "ticker": "TSM",
+    "current_price": 359.69,
+    "fair_value": 556.4239,
+    "upside_pct": 54.7,
+    "valuation_signal": "undervalued",
+    "methods": {
+     "pe_method": {
+      "fair_price": 416.08,
+      "range_low": 267.48,
+      "range_mid": 416.08,
+      "range_high": 594.4,
+      "weight": 0.4
+     },
+     "peg_method": {
+      "fair_price": 713.28,
+      "growth_rate": 50.0,
+      "target_pe": 48.0,
+      "weight": 0.3
+     },
+     "analyst_target": {
+      "fair_price": 586.693,
+      "weight": 0.3
+     }
+    },
+    "sector_used": "semiconductor",
+    "score": 95,
+    "valuation_reliable": true,
+    "valuation_reason": ""
+   },
+   "prediction": {
+    "ticker": "TSM",
+    "current_price": 359.69,
+    "predicted_30d": 405.2279,
+    "predicted_high": 425.4922,
+    "predicted_low": 383.9924,
+    "expected_return_pct": 12.66,
+    "prediction_dates": [
+     "2026-11-18",
+     "2026-11-19",
+     "2026-11-20",
+     "2026-11-23",
+     "2026-11-24",
+     "2026-11-25",
+     "2026-11-26",
+     "2026-11-27",
+     "2026-11-30",
+     "2026-12-01",
+     "2026-12-02",
+     "2026-12-03",
+     "2026-12-04",
+     "2026-12-07",
+     "2026-12-08",
+     "2026-12-09",
+     "2026-12-10",
+     "2026-12-11",
+     "2026-12-14",
+     "2026-12-15",
+     "2026-12-16",
+     "2026-12-17",
+     "2026-12-18",
+     "2026-12-21",
+     "2026-12-22",
+     "2026-12-23",
+     "2026-12-24",
+     "2026-12-25",
+     "2026-12-28",
+     "2026-12-29"
+    ],
+    "prediction_prices": [
+     381.6407,
+     382.2,
+     382.941,
+     386.028,
+     387.2567,
+     388.5369,
+     389.8383,
+     391.1311,
+     394.6772,
+     395.6664,
+     396.5259,
+     397.2419,
+     397.8047,
+     398.5513,
+     398.503,
+     398.3263,
+     398.04,
+     397.6664,
+     396.2887,
+     395.8422,
+     395.4531,
+     395.1515,
+     394.9658,
+     395.3504,
+     395.8566,
+     396.573,
+     397.5052,
+     398.6533,
+     403.317,
+     405.2279
+    ],
+    "prediction_upper": [
+     401.8408,
+     403.074,
+     403.3665,
+     406.5324,
+     407.1009,
+     408.3343,
+     410.3124,
+     411.2191,
+     414.7312,
+     416.0448,
+     417.4211,
+     416.5721,
+     418.8314,
+     418.7984,
+     419.2324,
+     418.719,
+     418.6431,
+     418.9686,
+     415.8021,
+     416.7602,
+     416.2256,
+     414.8325,
+     414.9149,
+     416.8353,
+     415.485,
+     417.9346,
+     417.5079,
+     419.1158,
+     423.7458,
+     425.4922
+    ],
+    "prediction_lower": [
+     362.1208,
+     361.8742,
+     362.9085,
+     366.8818,
+     367.6214,
+     367.6788,
+     370.5275,
+     370.3042,
+     373.2365,
+     375.8204,
+     377.5824,
+     377.4573,
+     376.5797,
+     378.9941,
+     378.2341,
+     377.4509,
+     377.1705,
+     377.5818,
+     375.4254,
+     375.0904,
+     375.2174,
+     375.6784,
+     374.0049,
+     373.6573,
+     376.1233,
+     377.3922,
+     378.5707,
+     377.895,
+     383.3886,
+     383.9924
+    ],
+    "model_used": "prophet",
+    "confidence": "high",
+    "score": 90,
+    "interval_width": 0.1024
+   },
+   "news": {
+    "sentiment_score": 0.1004,
+    "sentiment_label": "Neutral",
+    "news_count": 10,
+    "positive_count": 3,
+    "neutral_count": 5,
+    "negative_count": 2,
+    "analyzed_news": [
+     {
+      "title": "Nvidia Is Only 17% of SMH. After Its Beat, the Chip ETF Jumped Almost as Much as Nvidia Did",
+      "publisher": "24/7 Wall St.",
+      "link": "https://247wallst.com/investing/2026/11/17/nvidia-is-only-17-of-smh-after-its-beat-the-chip-etf-jumped-almost-as-much-as-nvidia-did/",
+      "published_at": "2026-11-17 22:52:53",
+      "sentiment": "positive",
+      "sentiment_cn": "Positive",
+      "confidence": 0.9032,
+      "weight": 1.0
+     },
+     {
+      "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+      "published_at": "2026-11-17 22:01:59",
+      "sentiment": "positive",
+      "sentiment_cn": "Positive",
+      "confidence": 0.6157,
+      "weight": 1.0
+     },
+     {
+      "title": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html",
+      "published_at": "2026-11-17 20:21:55",
+      "sentiment": "positive",
+      "sentiment_cn": "Positive",
+      "confidence": 0.9461,
+      "weight": 1.0
+     },
+     {
+      "title": "The 5 Best Stocks in George Soros’s Portfolio",
+      "publisher": "TIKR",
+      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-george-soross-portfolio?ref=yahoofinance&tlnk=yf-261117-8999fh2f",
+      "published_at": "2026-11-17 19:10:12",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.7768,
+      "weight": 1.0
+     },
+     {
+      "title": "TSMC Stocks Fall 4.26% as New US Rule Tightens Checks on Chip Foundries",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-4-26-190103464.html",
+      "published_at": "2026-11-17 19:01:03",
+      "sentiment": "negative",
+      "sentiment_cn": "Negative",
+      "confidence": 0.9643,
+      "weight": 1.0
+     },
+     {
+      "title": "Beyond NVIDIA & Anthropic: 3 Important Stock Catalysts to Watch Into December",
+      "publisher": "Wall Street Horizon",
+      "link": "https://www.wallstreethorizon.com/blog/Beyond-NVIDIA--Anthropic-3-Important-Stock-Catalysts-to-Watch-Into-December",
+      "published_at": "2026-11-17 18:52:28",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.8808,
+      "weight": 1.0
+     },
+     {
+      "title": "Could Nvidia Stock Fall 50%? Follow The Cash",
+      "publisher": "Trefis",
+      "link": "https://www.trefis.com/stock/nvda/articles/625113/could-nvidia-stock-fall-50-follow-the-cash/2026-11-17",
+      "published_at": "2026-11-17 17:42:19",
+      "sentiment": "negative",
+      "sentiment_cn": "Negative",
+      "confidence": 0.4971,
+      "weight": 1.0
+     },
+     {
+      "title": "Will Nvidia Guide Q4 Tonight? 3 Scenarios",
+      "publisher": "Trefis",
+      "link": "https://www.trefis.com/stock/nvda/articles/626016/will-nvidia-guide-q4-tonight-3-scenarios/2026-11-17",
+      "published_at": "2026-11-17 17:21:45",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9337,
+      "weight": 1.0
+     },
+     {
+      "title": "Does Nvidia Have Another 10x Run In It?",
+      "publisher": "Trefis",
+      "link": "https://www.trefis.com/stock/nvda/articles/626018/does-nvidia-have-another-10x-run-in-it/2026-11-17",
+      "published_at": "2026-11-17 17:21:45",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9233,
+      "weight": 1.0
+     },
+     {
+      "title": "Is SMH A Great Dip Buy At 31% Off?",
+      "publisher": "Trefis",
+      "link": "https://www.trefis.com/stock/smh/articles/626017/is-smh-a-great-dip-buy-at-31-off/2026-11-17",
+      "published_at": "2026-11-17 17:21:45",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.6276,
+      "weight": 1.0
+     }
+    ],
+    "top_headlines": [
+     {
+      "title": "TSMC Stocks Fall 4.26% as New US Rule Tightens Checks on Chip Foundries",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-4-26-190103464.html",
+      "published_at": "2026-11-17 19:01:03",
+      "sentiment": "negative",
+      "sentiment_cn": "Negative",
+      "confidence": 0.9643,
+      "weight": 1.0
+     },
+     {
+      "title": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html",
+      "published_at": "2026-11-17 20:21:55",
+      "sentiment": "positive",
+      "sentiment_cn": "Positive",
+      "confidence": 0.9461,
+      "weight": 1.0
+     },
+     {
+      "title": "Will Nvidia Guide Q4 Tonight? 3 Scenarios",
+      "publisher": "Trefis",
+      "link": "https://www.trefis.com/stock/nvda/articles/626016/will-nvidia-guide-q4-tonight-3-scenarios/2026-11-17",
+      "published_at": "2026-11-17 17:21:45",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9337,
+      "weight": 1.0
+     },
+     {
+      "title": "Does Nvidia Have Another 10x Run In It?",
+      "publisher": "Trefis",
+      "link": "https://www.trefis.com/stock/nvda/articles/626018/does-nvidia-have-another-10x-run-in-it/2026-11-17",
+      "published_at": "2026-11-17 17:21:45",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9233,
+      "weight": 1.0
+     },
+     {
+      "title": "Nvidia Is Only 17% of SMH. After Its Beat, the Chip ETF Jumped Almost as Much as Nvidia Did",
+      "publisher": "24/7 Wall St.",
+      "link": "https://247wallst.com/investing/2026/11/17/nvidia-is-only-17-of-smh-after-its-beat-the-chip-etf-jumped-almost-as-much-as-nvidia-did/",
+      "published_at": "2026-11-17 22:52:53",
+      "sentiment": "positive",
+      "sentiment_cn": "Positive",
+      "confidence": 0.9032,
+      "weight": 1.0
+     }
+    ],
+    "score": 55.02,
+    "ticker": "TSM",
+    "summary": "# TSM News Overview\n\nThe sentiment around TSM remains neutral overall, with three positive articles, five neutral pieces, and two negative reports. The slight positive lean reflects mixed signals as the semiconductor sector navigates both opportunities and regulatory headwinds.\n\nThe positive momentum stems from broad strength in the chipmaking ecosystem. Nvidia's recent earnings beat has lifted the entire semiconductor sector, including chip foundry operators. TSM's growth outlook has been bolstered by surging AI demand and the company's advanced chipmaking capabilities, which position it well to capitalize on the technology cycle. This tailwind extends across the broader chip equipment and manufacturing space, as evidenced by gains among related semiconductor stocks.\n\nHowever, regulatory concerns present a meaningful near-term headwind. TSM shares fell 4.26% following new US rules that tighten compliance checks on chip foundries. This regulatory uncertainty could pressure margins and complicate operations, particularly around advanced manufacturing in sensitive geographies. This development warrants close monitoring given the importance of US policy to TSM's business.\n\nThe divergence between sector tailwinds and regulatory headwinds makes TSM worth watching carefully. Investors should track how the company navigates the new compliance requirements while positioning for sustained AI-driven demand."
+   },
+   "composite_score": 78.5,
+   "passes_filter": true,
+   "pick_reasons": [
+    "Revenue and earnings are both growing quickly",
+    "Valuation looks cheap, upside +54.7%",
+    "Prophet 30-day forecast +12.7%",
+    "Profitability is strong",
+    "In a peer group with a favorable industry outlook",
+    "✓ Still 54.7% below fair value"
+   ],
+   "risk_factors": [],
+   "entry_price": {
+    "ticker": "TSM",
+    "current_price": 359.69,
+    "entry_prices": {
+     "conservative": 330.9148,
+     "standard": 345.3024,
+     "aggressive": 352.4962
+    },
+    "current_status": "wait",
+    "current_zone": "above_aggressive",
+    "distance": {
+     "to_fair_value_pct": 54.6954,
+     "to_conservative_pct": -8.0,
+     "to_standard_pct": -4.0,
+     "to_aggressive_pct": -2.0
+    },
+    "reasoning": "TSM has broken above the entry zone. Wait for a retest near 345.30 before entering. (fundamentals are excellent; scaling in can be a bit more aggressive) (valuation is cheap and downside looks limited)",
+    "batch_plan": [
+     {
+      "price": 352.4962,
+      "allocation_pct": 30,
+      "condition": "Tranche 1: a starter near the aggressive entry"
+     },
+     {
+      "price": 345.3024,
+      "allocation_pct": 35,
+      "condition": "Tranche 2: standard entry (technical support)"
+     },
+     {
+      "price": 330.9148,
+      "allocation_pct": 35,
+      "condition": "Tranche 3: conservative entry (a larger margin of safety)"
+     }
+    ],
+    "risk_reward_ratio": 1.5825
+   }
+  },
   {
    "ticker": "APP",
    "name": "AppLovin Corporation",
@@ -29,7 +489,7 @@
      "macd_hist": 12.647237020791472,
      "price_vs_ma20": 25.05916977509508,
      "close": 398.94000244140625,
-     "vol_ratio": 0.7626289524413249,
+     "vol_ratio": 0.7648718333058391,
      "adx": 41.29961672595158,
      "kd_k": 75.1811965831556,
      "kd_d": 90.15541581950015,
@@ -67,7 +527,7 @@
      "mapped_sector": "ai_software",
      "industry": "Advertising Agencies",
      "market_cap": 132177592320.0,
-     "trailing_pe": 26.864645,
+     "trailing_pe": 27.95655,
      "forward_pe": 19.12387,
      "price_to_book": 40.07031
     },
@@ -81,19 +541,19 @@
    "valuation": {
     "ticker": "APP",
     "current_price": 398.94,
-    "fair_value": 585.1541,
-    "upside_pct": 46.68,
+    "fair_value": 567.6381,
+    "upside_pct": 42.29,
     "valuation_signal": "undervalued",
     "methods": {
      "pe_method": {
-      "fair_price": 564.3,
-      "range_low": 371.25,
-      "range_mid": 564.3,
-      "range_high": 816.75,
+      "fair_price": 542.26,
+      "range_low": 356.75,
+      "range_mid": 542.26,
+      "range_high": 784.8501,
       "weight": 0.4
      },
      "peg_method": {
-      "fair_price": 742.5,
+      "fair_price": 713.5001,
       "growth_rate": 50.0,
       "target_pe": 50.0,
       "weight": 0.3
@@ -112,8 +572,8 @@
     "ticker": "APP",
     "current_price": 398.94,
     "predicted_30d": 649.7603,
-    "predicted_high": 701.1805,
-    "predicted_low": 600.3176,
+    "predicted_high": 698.5249,
+    "predicted_low": 596.1931,
     "expected_return_pct": 62.87,
     "prediction_dates": [
      "2026-11-18",
@@ -180,73 +640,73 @@
      649.7603
     ],
     "prediction_upper": [
-     506.9317,
-     519.1673,
-     531.0353,
-     567.3087,
-     583.1773,
-     591.6705,
-     603.0853,
-     612.1142,
-     642.4247,
-     650.225,
-     657.585,
-     664.8712,
-     673.486,
-     687.6551,
-     694.4038,
-     695.3489,
-     697.7882,
-     702.8939,
-     714.634,
-     714.4978,
-     715.3765,
-     714.3123,
-     716.2756,
-     714.6431,
-     715.893,
-     712.9001,
-     715.1538,
-     708.8626,
-     702.5265,
-     701.1805
+     504.0125,
+     519.4551,
+     534.077,
+     570.4862,
+     577.7944,
+     593.4748,
+     603.9835,
+     614.7961,
+     639.3227,
+     650.1543,
+     654.3032,
+     668.079,
+     664.4199,
+     686.6648,
+     689.2495,
+     697.6529,
+     699.2387,
+     700.8414,
+     709.2831,
+     710.9002,
+     712.6948,
+     716.2236,
+     717.3729,
+     715.5198,
+     716.237,
+     713.4814,
+     712.9954,
+     709.2613,
+     705.6254,
+     698.5249
     ],
     "prediction_lower": [
-     406.3933,
-     421.8978,
-     433.2926,
-     467.3043,
-     480.0941,
-     495.5436,
-     506.2215,
-     515.4553,
-     541.5692,
-     550.1724,
-     556.02,
-     565.9565,
-     569.5592,
-     584.4275,
-     592.9636,
-     597.1039,
-     600.5071,
-     603.8543,
-     612.9025,
-     616.0472,
-     611.9277,
-     618.0578,
-     619.0334,
-     618.101,
-     617.8035,
-     613.4481,
-     614.3351,
-     611.1694,
-     603.0336,
-     600.3176
+     405.5384,
+     417.351,
+     433.0686,
+     470.7762,
+     484.0991,
+     491.3985,
+     504.7509,
+     512.2681,
+     542.0317,
+     549.7977,
+     556.325,
+     566.834,
+     570.4244,
+     587.6062,
+     592.9729,
+     591.7551,
+     601.6333,
+     607.3991,
+     610.4043,
+     613.9422,
+     615.3176,
+     616.0777,
+     618.4967,
+     613.9639,
+     613.3857,
+     616.0081,
+     612.4987,
+     612.2473,
+     604.365,
+     596.1931
     ],
     "model_used": "prophet",
     "confidence": "medium",
     "score": 75,
-    "interval_width": 0.1552
+    "interval_width": 0.1575
    },
    "news": {
     "sentiment_score": 0.2923,
@@ -411,13 +871,13 @@
     ],
     "score": 64.62,
     "ticker": "APP",
-    "summary": "# AppLovin (APP) News Overview\n\nAppLovin demonstrates bullish momentum with three positive articles and seven neutral pieces, reflecting a solidly optimistic outlook with a +0.29 sentiment score. No negative coverage was detected.\n\nThe company's strong operational performance is driving investor interest. AppLovin reported Q3 revenues jumping 55%, suggesting robust earnings growth and business acceleration. This performance has translated into stock gains exceeding 70% since early November, capturing significant investor attention. Additionally, the company appears on institutional watchlists, with prominent asset managers including AppLovin in their AI and growth stock portfolios for 2027.\n\nStrategic developments are adding another layer of intrigue. AppLovin is reportedly in talks to acquire ad-tech competitor Criteo, which could represent a meaningful expansion of its market position within the digital advertising ecosystem. This potential consolidation reflects confidence in AppLovin's ability to integrate and deploy capital effectively.\n\nMixed signals exist regarding institutional positioning, with notable fund managers like Stanley Druckenmiller actively accumulating shares while others simultaneously reduced positions, suggesting divergent views on valuation or timing. The stock remains worth watching as management executes on growth initiatives and strategic opportunities materialize."
+    "summary": "# APP Investment Note\n\nAppLovin demonstrates modestly bullish momentum with three positive articles among ten pieces of coverage published recently. The overall sentiment reflects optimism tempered by cautious market positioning, with no negative coverage identified.\n\nThe company's recent performance is marked by substantial Q3 revenue growth of 55%, which appears to be attracting investor attention after the stock soared over 70% since November's start. AppLovin has also reportedly entered discussions to acquire ad-tech competitor Criteo, a potentially significant strategic development that could reshape its competitive positioning. The company maintains appeal as a founder-led growth stock and has gained attention from prominent institutional investors, with several major funds adding to positions during the recent quarter.\n\nMixed signals emerge from fund activity, as notable investor Stanley Druckenmiller reportedly reduced exposure to AppLovin despite broader enthusiasm from other major funds that accumulated shares. This divergence in institutional positioning warrants attention, as does the pending Criteo acquisition announcement, whose terms and strategic rationale remain undisclosed.\n\nAppLovin's strong revenue trajectory and elevated stock performance are worth watching, though investors should monitor both acquisition developments and the sustainability of current growth rates as the company navigates competitive dynamics in ad-tech."
    },
    "composite_score": 77.72,
    "passes_filter": true,
    "pick_reasons": [
     "Revenue and earnings are both growing quickly",
-    "Valuation looks cheap, upside +46.7%",
+    "Valuation looks cheap, upside +42.3%",
     "Prophet 30-day forecast +62.9%",
     "Profitability is strong",
     "In a peer group with a favorable industry outlook",
@@ -435,7 +895,7 @@
     "current_status": "wait",
     "current_zone": "above_aggressive",
     "distance": {
-     "to_fair_value_pct": 46.6772,
+     "to_fair_value_pct": 42.2866,
      "to_conservative_pct": -8.0,
      "to_standard_pct": -4.0,
      "to_aggressive_pct": -2.0
@@ -459,468 +919,6 @@
      }
     ],
     "risk_reward_ratio": 7.859
-   }
-  },
-  {
-   "ticker": "TSM",
-   "name": "Taiwan Semiconductor Manufacturing Company Limited",
-   "current_price": 359.69,
-   "sector": "semiconductor",
-   "technical": {
-    "total_score": 54.5,
-    "sub_scores": {
-     "rsi": 75.0,
-     "macd": 40.0,
-     "bollinger": 45.0,
-     "ma_trend": 55.0,
-     "volume": 60.0
-    },
-    "signals": {
-     "rsi": "Neutral",
-     "macd": "Still bearish",
-     "bollinger": "Below the middle band",
-     "ma_trend": "Consolidating",
-     "volume": "Normal"
-    },
-    "current_values": {
-     "rsi": 35.65359344311733,
-     "macd_dif": -14.162859208804832,
-     "macd_dea": -11.959852609144553,
-     "macd_hist": -2.203006599660279,
-     "price_vs_ma20": -10.801900152175625,
-     "close": 359.69000244140625,
-     "vol_ratio": 1.5618409949544285,
-     "adx": 30.997047606888547,
-     "kd_k": 12.955345065928402,
-     "kd_d": 39.78053944633907,
-     "ma5": 390.1420043945312,
-     "ma20": 403.24850311279295,
-     "ma60": 426.33933410644534,
-     "ma200": 403.35815063476565,
-     "bb_upper": 450.98171580345337,
-     "bb_middle": 403.24850311279295,
-     "bb_lower": 355.5152904221325,
-     "roc": -11.434762731900678,
-     "atr": 17.914440985704463,
-     "hv20": 0.653606125890235
-    }
-   },
-   "fundamental": {
-    "ticker": "TSM",
-    "total_score": 93.5,
-    "sub_scores": {
-     "growth": 95.0,
-     "profitability": 100.0,
-     "financial_health": 100.0,
-     "industry_outlook": 75.0
-    },
-    "details": {
-     "revenue_growth": 0.509,
-     "earnings_growth": 0.687,
-     "gross_margin": 0.65846,
-     "profit_margin": 0.51116,
-     "roe": 0.4186,
-     "debt_to_equity": 0.15188000000000001,
-     "debt_to_equity_raw": 15.188,
-     "current_ratio": 2.584,
-     "sector": "Technology",
-     "mapped_sector": "semiconductor",
-     "industry": "Semiconductors",
-     "market_cap": 1865522479104.0,
-     "trailing_pe": 23.311083,
-     "forward_pe": 15.381037,
-     "price_to_book": 69.08984
-    },
-    "signals": {
-     "growth": "High Growth",
-     "profitability": "Excellent",
-     "financial_health": "Healthy",
-     "industry_outlook": "In favor"
-    }
-   },
-   "valuation": {
-    "ticker": "TSM",
-    "current_price": 359.69,
-    "fair_value": 571.0159,
-    "upside_pct": 58.75,
-    "valuation_signal": "undervalued",
-    "methods": {
-     "pe_method": {
-      "fair_price": 432.04,
-      "range_low": 277.74,
-      "range_mid": 432.04,
-      "range_high": 617.2,
-      "weight": 0.4
-     },
-     "peg_method": {
-      "fair_price": 740.64,
-      "growth_rate": 50.0,
-      "target_pe": 48.0,
-      "weight": 0.3
-     },
-     "analyst_target": {
-      "fair_price": 586.693,
-      "weight": 0.3
-     }
-    },
-    "sector_used": "semiconductor",
-    "score": 95,
-    "valuation_reliable": true,
-    "valuation_reason": ""
-   },
-   "prediction": {
-    "ticker": "TSM",
-    "current_price": 359.69,
-    "predicted_30d": 405.2279,
-    "predicted_high": 425.5235,
-    "predicted_low": 385.6249,
-    "expected_return_pct": 12.66,
-    "prediction_dates": [
-     "2026-11-18",
-     "2026-11-19",
-     "2026-11-20",
-     "2026-11-23",
-     "2026-11-24",
-     "2026-11-25",
-     "2026-11-26",
-     "2026-11-27",
-     "2026-11-30",
-     "2026-12-01",
-     "2026-12-02",
-     "2026-12-03",
-     "2026-12-04",
-     "2026-12-07",
-     "2026-12-08",
-     "2026-12-09",
-     "2026-12-10",
-     "2026-12-11",
-     "2026-12-14",
-     "2026-12-15",
-     "2026-12-16",
-     "2026-12-17",
-     "2026-12-18",
-     "2026-12-21",
-     "2026-12-22",
-     "2026-12-23",
-     "2026-12-24",
-     "2026-12-25",
-     "2026-12-28",
-     "2026-12-29"
-    ],
-    "prediction_prices": [
-     381.6407,
-     382.2,
-     382.941,
-     386.028,
-     387.2567,
-     388.5369,
-     389.8383,
-     391.1311,
-     394.6772,
-     395.6664,
-     396.5259,
-     397.2419,
-     397.8047,
-     398.5513,
-     398.503,
-     398.3263,
-     398.04,
-     397.6664,
-     396.2887,
-     395.8422,
-     395.4531,
-     395.1515,
-     394.9658,
-     395.3504,
-     395.8566,
-     396.573,
-     397.5052,
-     398.6533,
-     403.317,
-     405.2279
-    ],
-    "prediction_upper": [
-     402.7471,
-     402.6954,
-     403.5574,
-     406.129,
-     408.8225,
-     409.2118,
-     410.3132,
-     411.2785,
-     416.1485,
-     416.6188,
-     417.6035,
-     416.1429,
-     417.9093,
-     418.5527,
-     418.5319,
-     417.4038,
-     417.3319,
-     418.4021,
-     416.3679,
-     416.4054,
-     415.2519,
-     414.694,
-     415.4289,
-     414.8547,
-     417.5048,
-     417.5109,
-     419.9625,
-     419.3467,
-     424.0573,
-     425.5235
-    ],
-    "prediction_lower": [
-     361.8376,
-     362.3564,
-     361.6446,
-     365.2835,
-     367.2769,
-     367.761,
-     370.1086,
-     370.7294,
-     374.1537,
-     376.1285,
-     375.8522,
-     377.3597,
-     379.0115,
-     377.0918,
-     377.7741,
-     378.6026,
-     377.3149,
-     377.3827,
-     376.7378,
-     376.2752,
-     374.5041,
-     375.6291,
-     374.8838,
-     375.8842,
-     376.1795,
-     375.9703,
-     376.7183,
-     377.9958,
-     383.5236,
-     385.6249
-    ],
-    "model_used": "prophet",
-    "confidence": "high",
-    "score": 90,
-    "interval_width": 0.0985
-   },
-   "news": {
-    "sentiment_score": -0.2442,
-    "sentiment_label": "Bearish",
-    "news_count": 10,
-    "positive_count": 1,
-    "neutral_count": 5,
-    "negative_count": 4,
-    "analyzed_news": [
-     {
-      "title": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html",
-      "published_at": "2026-11-17 20:21:55",
-      "sentiment": "positive",
-      "sentiment_cn": "Positive",
-      "confidence": 0.9461,
-      "weight": 1.0
-     },
-     {
-      "title": "The 5 Best Stocks in George Soros’s Portfolio",
-      "publisher": "TIKR",
-      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-george-soross-portfolio?ref=yahoofinance&tlnk=yf-261117-8999fh2f",
-      "published_at": "2026-11-17 19:10:12",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.7768,
-      "weight": 1.0
-     },
-     {
-      "title": "TSMC Stocks Fall 4.26% as New US Rule Tightens Checks on Chip Foundries",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-4-26-190103464.html",
-      "published_at": "2026-11-17 19:01:03",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9643,
-      "weight": 1.0
-     },
-     {
-      "title": "Beyond NVIDIA & Anthropic: 3 Important Stock Catalysts to Watch Into December",
-      "publisher": "Wall Street Horizon",
-      "link": "https://www.wallstreethorizon.com/blog/Beyond-NVIDIA--Anthropic-3-Important-Stock-Catalysts-to-Watch-Into-December",
-      "published_at": "2026-11-17 18:52:28",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.8808,
-      "weight": 1.0
-     },
-     {
-      "title": "Could Nvidia Stock Fall 50%? Follow The Cash",
-      "publisher": "Trefis",
-      "link": "https://www.trefis.com/stock/nvda/articles/625113/could-nvidia-stock-fall-50-follow-the-cash/2026-11-17",
-      "published_at": "2026-11-17 17:42:19",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.4971,
-      "weight": 1.0
-     },
-     {
-      "title": "Will Nvidia Guide Q4 Tonight? 3 Scenarios",
-      "publisher": "Trefis",
-      "link": "https://www.trefis.com/stock/nvda/articles/626016/will-nvidia-guide-q4-tonight-3-scenarios/2026-11-17",
-      "published_at": "2026-11-17 17:21:45",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.9337,
-      "weight": 1.0
-     },
-     {
-      "title": "Does Nvidia Have Another 10x Run In It?",
-      "publisher": "Trefis",
-      "link": "https://www.trefis.com/stock/nvda/articles/626018/does-nvidia-have-another-10x-run-in-it/2026-11-17",
-      "published_at": "2026-11-17 17:21:45",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.9233,
-      "weight": 1.0
-     },
-     {
-      "title": "Is SMH A Great Dip Buy At 31% Off?",
-      "publisher": "Trefis",
-      "link": "https://www.trefis.com/stock/smh/articles/626017/is-smh-a-great-dip-buy-at-31-off/2026-11-17",
-      "published_at": "2026-11-17 17:21:45",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.6276,
-      "weight": 1.0
-     },
-     {
-      "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Pulled Back Amid Broader AI Buildout Correction",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-company-limited-154649598.html",
-      "published_at": "2026-11-17 15:46:49",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9625,
-      "weight": 1.0
-     },
-     {
-      "title": "SpaceX Has Slumped Since June. 3 Billionaires Just Piled In Anyway (and 1 Went 17x Bigger)",
-      "publisher": "24/7 Wall St.",
-      "link": "https://247wallst.com/investing/2026/11/17/spacex-has-slumped-since-june-3-billionaires-just-piled-in-anyway-and-1-went-17x-bigger/",
-      "published_at": "2026-11-17 15:03:50",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9641,
-      "weight": 1.0
-     }
-    ],
-    "top_headlines": [
-     {
-      "title": "TSMC Stocks Fall 4.26% as New US Rule Tightens Checks on Chip Foundries",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-4-26-190103464.html",
-      "published_at": "2026-11-17 19:01:03",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9643,
-      "weight": 1.0
-     },
-     {
-      "title": "SpaceX Has Slumped Since June. 3 Billionaires Just Piled In Anyway (and 1 Went 17x Bigger)",
-      "publisher": "24/7 Wall St.",
-      "link": "https://247wallst.com/investing/2026/11/17/spacex-has-slumped-since-june-3-billionaires-just-piled-in-anyway-and-1-went-17x-bigger/",
-      "published_at": "2026-11-17 15:03:50",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9641,
-      "weight": 1.0
-     },
-     {
-      "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Pulled Back Amid Broader AI Buildout Correction",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-company-limited-154649598.html",
-      "published_at": "2026-11-17 15:46:49",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9625,
-      "weight": 1.0
-     },
-     {
-      "title": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html",
-      "published_at": "2026-11-17 20:21:55",
-      "sentiment": "positive",
-      "sentiment_cn": "Positive",
-      "confidence": 0.9461,
-      "weight": 1.0
-     },
-     {
-      "title": "Will Nvidia Guide Q4 Tonight? 3 Scenarios",
-      "publisher": "Trefis",
-      "link": "https://www.trefis.com/stock/nvda/articles/626016/will-nvidia-guide-q4-tonight-3-scenarios/2026-11-17",
-      "published_at": "2026-11-17 17:21:45",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.9337,
-      "weight": 1.0
-     }
-    ],
-    "score": 37.79,
-    "ticker": "TSM",
-    "summary": "**TSM News Overview**\n\nTaiwan Semiconductor Manufacturing Company (TSM) shows a bearish sentiment across recent coverage, with negative articles outweighing positive ones. Among ten pieces analyzed, only one is clearly positive, five are neutral, and four carry negative signals, resulting in an overall sentiment score of -0.24.\n\nOn the positive side, strong demand from the artificial intelligence sector continues to support TSM's growth trajectory. The company's advanced chipmaking capabilities are well-positioned to capitalize on the ongoing AI buildout, with investors recognizing the fundamental strength of its market position. TSM's inclusion in notable portfolios underscores confidence in its longer-term prospects amid the semiconductor industry's expansion.\n\nHowever, regulatory headwinds present a material concern. A newly implemented US rule tightening checks on chip foundries has pressured the stock, which fell 4.26% following the announcement. Additionally, TSM experienced a pullback amid a broader correction in AI-related investments, raising questions about valuation sustainability during periods of market consolidation.\n\nThe broader semiconductor sector faces uncertainty, with questions emerging around AI-driven growth narratives and potential valuation corrections. TSM's fundamentals remain solid, but near-term regulatory pressures and sector volatility are worth watching carefully."
-   },
-   "composite_score": 76.78,
-   "passes_filter": true,
-   "pick_reasons": [
-    "Revenue and earnings are both growing quickly",
-    "Valuation looks cheap, upside +58.8%",
-    "Prophet 30-day forecast +12.7%",
-    "Profitability is strong",
-    "In a peer group with a favorable industry outlook",
-    "✓ Still 58.8% below fair value"
-   ],
-   "risk_factors": [
-    "Several recent articles are negative"
-   ],
-   "entry_price": {
-    "ticker": "TSM",
-    "current_price": 359.69,
-    "entry_prices": {
-     "conservative": 330.9148,
-     "standard": 345.3024,
-     "aggressive": 352.4962
-    },
-    "current_status": "wait",
-    "current_zone": "above_aggressive",
-    "distance": {
-     "to_fair_value_pct": 58.7522,
-     "to_conservative_pct": -8.0,
-     "to_standard_pct": -4.0,
-     "to_aggressive_pct": -2.0
-    },
-    "reasoning": "TSM has broken above the entry zone. Wait for a retest near 345.30 before entering. (fundamentals are excellent; scaling in can be a bit more aggressive) (valuation is cheap and downside looks limited)",
-    "batch_plan": [
-     {
-      "price": 352.4962,
-      "allocation_pct": 30,
-      "condition": "Tranche 1: a starter near the aggressive entry"
-     },
-     {
-      "price": 345.3024,
-      "allocation_pct": 35,
-      "condition": "Tranche 2: standard entry (technical support)"
-     },
-     {
-      "price": 330.9148,
-      "allocation_pct": 35,
-      "condition": "Tranche 3: conservative entry (a larger margin of safety)"
-     }
-    ],
-    "risk_reward_ratio": 1.5825
    }
   },
   {
@@ -951,7 +949,7 @@
      "macd_hist": 1.9029311384319243,
      "price_vs_ma20": -1.6639611218133732,
      "close": 618.8699951171875,
-     "vol_ratio": 0.5396184613362845,
+     "vol_ratio": 0.5537724113355658,
      "adx": 23.251137226280797,
      "kd_k": 54.245930519077135,
      "kd_d": 69.89943600327031,
@@ -1034,8 +1032,8 @@
     "ticker": "META",
     "current_price": 618.87,
     "predicted_30d": 721.7002,
-    "predicted_high": 755.0836,
-    "predicted_low": 687.5274,
+    "predicted_high": 755.8072,
+    "predicted_low": 686.4708,
     "expected_return_pct": 16.62,
     "prediction_dates": [
      "2026-11-18",
@@ -1102,82 +1100,132 @@
      721.7002
     ],
     "prediction_upper": [
-     685.8427,
-     691.7471,
-     694.0466,
-     711.4042,
-     714.6377,
-     714.9408,
-     722.7723,
-     724.8124,
-     737.8621,
-     736.1288,
-     735.8364,
-     738.3831,
-     743.0408,
-     746.2703,
-     745.6661,
-     748.5308,
-     750.622,
-     749.3709,
-     754.9435,
-     754.6168,
-     753.7841,
-     756.2882,
-     757.7266,
-     761.5662,
-     761.465,
-     760.2492,
-     759.0537,
-     759.5296,
-     755.4715,
-     755.0836
+     690.7542,
+     691.1465,
+     696.0057,
+     710.8808,
+     714.9009,
+     719.4601,
+     722.3643,
+     725.791,
+     731.4606,
+     737.2008,
+     738.8146,
+     738.0604,
+     742.4532,
+     746.6199,
+     746.1268,
+     748.6806,
+     750.9119,
+     750.2745,
+     754.215,
+     755.0083,
+     757.5952,
+     757.3421,
+     756.2185,
+     761.1415,
+     760.8615,
+     759.695,
+     760.2629,
+     759.6902,
+     758.9545,
+     755.8072
     ],
     "prediction_lower": [
-     619.2818,
-     622.875,
-     629.6826,
-     643.9774,
-     647.3015,
-     651.7932,
-     658.5863,
-     659.6296,
-     668.0956,
-     672.1335,
-     673.4532,
-     670.9139,
-     674.9617,
-     679.7158,
-     680.7219,
-     682.4915,
-     683.992,
-     685.1644,
-     688.5317,
-     688.5664,
-     690.2065,
-     691.5078,
-     691.7828,
-     691.593,
-     694.9032,
-     694.3452,
-     694.7922,
-     694.9087,
-     690.416,
-     687.5274
+     619.3253,
+     627.7912,
+     631.1312,
+     642.3478,
+     647.1323,
+     651.6393,
+     655.1478,
+     660.146,
+     666.5659,
+     671.1181,
+     671.8701,
+     672.9914,
+     676.2023,
+     678.4055,
+     680.5466,
+     680.4452,
+     683.5048,
+     683.8903,
+     689.0272,
+     689.2719,
+     688.824,
+     688.5071,
+     691.6841,
+     691.1593,
+     694.2968,
+     697.3477,
+     691.5199,
+     693.4766,
+     691.7696,
+     686.4708
     ],
     "model_used": "prophet",
     "confidence": "high",
     "score": 90,
-    "interval_width": 0.0936
+    "interval_width": 0.0961
    },
    "news": {
-    "sentiment_score": -0.1043,
+    "sentiment_score": -0.0598,
     "sentiment_label": "Neutral",
     "news_count": 10,
-    "positive_count": 3,
-    "neutral_count": 3,
-    "negative_count": 4,
+    "positive_count": 2,
+    "neutral_count": 5,
+    "negative_count": 3,
     "analyzed_news": [
+     {
+      "title": "Non-Tech Stocks Can Still Deliver Huge Gains",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/non-tech-stocks-still-deliver-235200453.html",
+      "published_at": "2026-11-17 23:52:00",
+      "sentiment": "positive",
+      "sentiment_cn": "Positive",
+      "confidence": 0.8197,
+      "weight": 1.0
+     },
+     {
+      "title": "AI Agents vs. Banks: Who Will Win? I'm Betting on Banks.",
+      "publisher": "Motley Fool",
+      "link": "https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/",
+      "published_at": "2026-11-17 23:33:02",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9075,
+      "weight": 1.0
+     },
+     {
+      "title": "Bill Ackman’s $14 billion bet beyond the Magnificent 7",
+      "publisher": "TheStreet",
+      "link": "https://www.thestreet.com/investing/bill-ackman-sells-microsoft-buys-netflix-13f",
+      "published_at": "2026-11-17 22:33:00",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.6068,
+      "weight": 1.0
+     },
+     {
+      "title": "Trading Day: AI trade unwind continues, but Nvidia beats",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/trading-day-ai-trade-unwind-220340221.html",
+      "published_at": "2026-11-17 22:08:55",
+      "sentiment": "negative",
+      "sentiment_cn": "Negative",
+      "confidence": 0.6769,
+      "weight": 1.0
+     },
+     {
+      "title": "Risks Loom Over Nvidia’s Fast-Growing Data Center Segment",
+      "publisher": "Barrons.com",
+      "link": "https://www.barrons.com/livecoverage/nvidia-earnings-stock-huang-departure/card/nvidia-s-data-center-sales-breakdown-OT1XZsiunmyXnli3m4ZA?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-11-17 21:55:39",
+      "sentiment": "negative",
+      "sentiment_cn": "Negative",
+      "confidence": 0.8947,
+      "weight": 1.0
+     },
      {
       "title": "Nvidia's Complex Orbit",
       "publisher": "Barrons.com",
@@ -1196,6 +1244,16 @@
       "sentiment": "positive",
       "sentiment_cn": "Positive",
       "confidence": 0.9444,
+      "weight": 1.0
+     },
+     {
+      "title": "Dear Apple Stock Fans, Mark Your Calendars for June 2027",
+      "publisher": "Barchart",
+      "link": "https://www.barchart.com/story/news/8883195/dear-apple-stock-fans-mark-your-calendars-for-june-2027",
+      "published_at": "2026-11-17 20:17:13",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9391,
       "weight": 1.0
      },
      {
@@ -1209,87 +1267,17 @@
       "weight": 1.0
      },
      {
-      "title": "This Critical Energy Bill Is A Key Priority For The Lame Duck GOP Congress",
-      "publisher": "Investor's Business Daily",
-      "link": "https://www.investors.com/news/critical-energy-bill-baaja-priority-for-the-lame-duck-gop-congress/?src=A00220&yptr=yahoo",
-      "published_at": "2026-11-17 19:29:43",
-      "sentiment": "positive",
-      "sentiment_cn": "Positive",
-      "confidence": 0.6141,
-      "weight": 1.0
-     },
-     {
-      "title": "An $11 Billion Fund Dumps These 2 Stocks",
-      "publisher": "TIKR",
-      "link": "https://www.tikr.com/blog/an-11-billion-fund-dumps-these-2-stocks?ref=yahoofinance&tlnk=yf-261117-7xqp882j",
-      "published_at": "2026-11-17 19:10:46",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.8494,
-      "weight": 1.0
-     },
-     {
-      "title": "Aptos lifts its APT burn rate to 2.2 million tokens a year",
-      "publisher": "TheStreet",
-      "link": "https://www.thestreet.com/crypto/innovation/aptos-lifts-its-apt-burn-rate-to-2-2-million-tokens-a-year",
-      "published_at": "2026-11-17 19:04:50",
-      "sentiment": "positive",
-      "sentiment_cn": "Positive",
-      "confidence": 0.9057,
-      "weight": 1.0
-     },
-     {
-      "title": "Jim Simons’ Fund Just Dumped 99.7% of Its Nvidia, Which Had Been Its No. 1 Holding",
-      "publisher": "24/7 Wall St.",
-      "link": "https://247wallst.com/investing/2026/11/17/jim-simons-fund-just-dumped-99-7-of-its-nvidia-which-had-been-its-no-1-holding/",
-      "published_at": "2026-11-17 18:53:34",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9178,
-      "weight": 1.0
-     },
-     {
-      "title": "Prediction: These 2 Stocks Will Be Worth More Than SpaceX 5 Years From Now",
-      "publisher": "Motley Fool",
-      "link": "https://www.fool.com/investing/2026/11/17/prediction-2-stocks-that-will-be-worth-more-than-s/",
-      "published_at": "2026-11-17 18:53:00",
+      "title": "How to Play OKLO Stock as Oklo Secures Key Fuel Supply for Its Ohio Plant",
+      "publisher": "Barchart",
+      "link": "https://www.barchart.com/story/news/8882835/how-to-play-oklo-stock-as-oklo-secures-key-fuel-supply-for-its-ohio-plant",
+      "published_at": "2026-11-17 19:51:24",
       "sentiment": "neutral",
       "sentiment_cn": "Neutral",
-      "confidence": 0.6894,
-      "weight": 1.0
-     },
-     {
-      "title": "SPCX Stock In Focus: SpaceX To Reportedly Launch $4B Bond Sale This Week",
-      "publisher": "Stocktwits",
-      "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-in-focus-spacex-to-reportedly-launch-4-b-bond-sale-this-week/cNbOcypR9hI",
-      "published_at": "2026-11-17 18:07:04",
-      "sentiment": "neutral",
-      "sentiment_cn": "Neutral",
-      "confidence": 0.8831,
-      "weight": 1.0
-     },
-     {
-      "title": "Lumentum, Corning, and other optical-related stocks jump on Chinese import restrictions",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/article/optical-related-stocks-surge-on-import-restrictions-of-chinese-data-center-equipment-150444937.html",
-      "published_at": "2026-11-17 15:04:44",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9496,
+      "confidence": 0.9105,
       "weight": 1.0
      }
     ],
     "top_headlines": [
-     {
-      "title": "Lumentum, Corning, and other optical-related stocks jump on Chinese import restrictions",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/stocks/article/optical-related-stocks-surge-on-import-restrictions-of-chinese-data-center-equipment-150444937.html",
-      "published_at": "2026-11-17 15:04:44",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9496,
-      "weight": 1.0
-     },
      {
       "title": "Meta Platforms, Inc. (META): Strong Advertising Growth Supports Its Long-Term Investment Case",
       "publisher": "Insider Monkey",
@@ -1301,41 +1289,51 @@
       "weight": 1.0
      },
      {
-      "title": "Jim Simons’ Fund Just Dumped 99.7% of Its Nvidia, Which Had Been Its No. 1 Holding",
-      "publisher": "24/7 Wall St.",
-      "link": "https://247wallst.com/investing/2026/11/17/jim-simons-fund-just-dumped-99-7-of-its-nvidia-which-had-been-its-no-1-holding/",
-      "published_at": "2026-11-17 18:53:34",
-      "sentiment": "negative",
-      "sentiment_cn": "Negative",
-      "confidence": 0.9178,
-      "weight": 1.0
-     },
-     {
-      "title": "Aptos lifts its APT burn rate to 2.2 million tokens a year",
-      "publisher": "TheStreet",
-      "link": "https://www.thestreet.com/crypto/innovation/aptos-lifts-its-apt-burn-rate-to-2-2-million-tokens-a-year",
-      "published_at": "2026-11-17 19:04:50",
-      "sentiment": "positive",
-      "sentiment_cn": "Positive",
-      "confidence": 0.9057,
-      "weight": 1.0
-     },
-     {
-      "title": "Nvidia's Complex Orbit",
-      "publisher": "Barrons.com",
-      "link": "https://www.barrons.com/livecoverage/nvidia-earnings-stock-huang-departure/card/nvidia-s-complex-web-of-investments-J3IHD1fIW8d7T0Ro4QnX?siteid=yhoof2&yptr=yahoo",
-      "published_at": "2026-11-17 21:15:05",
+      "title": "Dear Apple Stock Fans, Mark Your Calendars for June 2027",
+      "publisher": "Barchart",
+      "link": "https://www.barchart.com/story/news/8883195/dear-apple-stock-fans-mark-your-calendars-for-june-2027",
+      "published_at": "2026-11-17 20:17:13",
       "sentiment": "neutral",
       "sentiment_cn": "Neutral",
-      "confidence": 0.8903,
+      "confidence": 0.9391,
+      "weight": 1.0
+     },
+     {
+      "title": "How to Play OKLO Stock as Oklo Secures Key Fuel Supply for Its Ohio Plant",
+      "publisher": "Barchart",
+      "link": "https://www.barchart.com/story/news/8882835/how-to-play-oklo-stock-as-oklo-secures-key-fuel-supply-for-its-ohio-plant",
+      "published_at": "2026-11-17 19:51:24",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9105,
+      "weight": 1.0
+     },
+     {
+      "title": "AI Agents vs. Banks: Who Will Win? I'm Betting on Banks.",
+      "publisher": "Motley Fool",
+      "link": "https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/",
+      "published_at": "2026-11-17 23:33:02",
+      "sentiment": "neutral",
+      "sentiment_cn": "Neutral",
+      "confidence": 0.9075,
+      "weight": 1.0
+     },
+     {
+      "title": "Risks Loom Over Nvidia’s Fast-Growing Data Center Segment",
+      "publisher": "Barrons.com",
+      "link": "https://www.barrons.com/livecoverage/nvidia-earnings-stock-huang-departure/card/nvidia-s-data-center-sales-breakdown-OT1XZsiunmyXnli3m4ZA?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-11-17 21:55:39",
+      "sentiment": "negative",
+      "sentiment_cn": "Negative",
+      "confidence": 0.8947,
       "weight": 1.0
      }
     ],
-    "score": 44.79,
+    "score": 47.01,
     "ticker": "META",
-    "summary": "# META Investment Overview\n\nMeta's sentiment profile remains neutral with mixed signals across recent coverage. With three positive, three neutral, and four negative articles, investor sentiment is decidedly balanced, suggesting caution rather than conviction in either direction.\n\nOn the positive side, Meta's advertising business continues to show strength, with analysts highlighting robust growth that underpins a solid long-term investment thesis. Additionally, potential energy infrastructure developments through Congressional action could provide tailwinds for data-intensive technology operations. These factors suggest the company's core revenue drivers remain intact despite broader market uncertainties.\n\nHowever, significant headwinds deserve attention. Major institutional investors, including Jim Simons' Renaissance Technologies, have dramatically reduced or eliminated their technology holdings, with some funds dumping substantial AI-related positions. This capital rotation away from the AI and technology sector raises questions about conviction among sophisticated investors and may signal concern about valuation or growth prospects in the near term.\n\nMeta remains worth watching as the company balances strong advertising fundamentals against broader industry uncertainty. Investors should monitor both institutional positioning and advertising demand trends closely in coming quarters."
+    "summary": "# META Investment Overview\n\nMeta Platforms shows a neutral sentiment profile across recent coverage, with two positive articles balanced against three negative pieces and five neutral analyses. The mixed outlook reflects broader market dynamics around technology stocks and AI investments.\n\nOn the positive side, Meta's advertising business continues to demonstrate strength, with analysts highlighting robust revenue growth that supports the company's longer-term investment thesis. This performance comes as investors reassess opportunities beyond the most prominent mega-cap technology names, suggesting renewed interest in companies with tangible earnings momentum.\n\nHowever, headwinds from broader AI sector volatility merit attention. Recent market activity shows ongoing unwinding of concentrated AI trades, which has affected technology stocks more broadly. While the negative sentiment in coverage focuses primarily on competitors like Nvidia, Meta's exposure to these same market dynamics and investor sentiment shifts warrants monitoring.\n\nThe overall picture suggests Meta remains a company worth watching amid shifting technology sector dynamics. Its advertising fundamentals appear resilient, though execution will likely continue to face pressure from macroeconomic uncertainty and rotation away from mega-cap tech names."
    },
-   "composite_score": 75.62,
+   "composite_score": 75.84,
    "passes_filter": true,
    "pick_reasons": [
     "Valuation looks cheap, upside +84.2%",
@@ -1391,6 +1389,17 @@
  },
  "all_scores": [
   {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing Company Limited",
+   "composite_score": 78.5,
+   "passes_filter": true,
+   "tech_score": 54.5,
+   "fund_score": 93.5,
+   "valuation_score": 95,
+   "prediction_return_pct": 12.66,
+   "news_score": 55.02
+  },
+  {
    "ticker": "APP",
    "name": "AppLovin Corporation",
    "composite_score": 77.72,
@@ -1402,26 +1411,37 @@
    "news_score": 64.62
   },
   {
-   "ticker": "TSM",
-   "name": "Taiwan Semiconductor Manufacturing Company Limited",
-   "composite_score": 76.78,
-   "passes_filter": true,
-   "tech_score": 54.5,
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "composite_score": 75.86,
+   "passes_filter": false,
+   "tech_score": 56.5,
    "fund_score": 93.5,
    "valuation_score": 95,
-   "prediction_return_pct": 12.66,
-   "news_score": 37.79
+   "prediction_return_pct": -2.26,
+   "news_score": 68.55
   },
   {
    "ticker": "META",
    "name": "Meta Platforms, Inc.",
-   "composite_score": 75.62,
+   "composite_score": 75.84,
    "passes_filter": true,
    "tech_score": 62.25,
    "fund_score": 88.3,
    "valuation_score": 95,
    "prediction_return_pct": 16.62,
-   "news_score": 44.79
+   "news_score": 47.01
+  },
+  {
+   "ticker": "PATH",
+   "name": "UiPath, Inc.",
+   "composite_score": 74.97,
+   "passes_filter": true,
+   "tech_score": 61.25,
+   "fund_score": 82.8,
+   "valuation_score": 95,
+   "prediction_return_pct": 39.32,
+   "news_score": 54.6
   },
   {
    "ticker": "LRCX",
@@ -1437,46 +1457,46 @@
   {
    "ticker": "AMZN",
    "name": "Amazon.com, Inc.",
-   "composite_score": 73.37,
+   "composite_score": 73.71,
    "passes_filter": true,
    "tech_score": 74.75,
    "fund_score": 70.8,
    "valuation_score": 95,
    "prediction_return_pct": 8.85,
-   "news_score": 49.78
+   "news_score": 53.27
   },
   {
-   "ticker": "NVDA",
-   "name": "NVIDIA Corporation",
-   "composite_score": 73.25,
-   "passes_filter": false,
-   "tech_score": 57.25,
-   "fund_score": 93.5,
-   "valuation_score": 95,
-   "prediction_return_pct": -2.26,
-   "news_score": 50.66
+   "ticker": "AVGO",
+   "name": "Broadcom Inc.",
+   "composite_score": 72.85,
+   "passes_filter": true,
+   "tech_score": 66.75,
+   "fund_score": 91.5,
+   "valuation_score": 70,
+   "prediction_return_pct": 6.75,
+   "news_score": 62.88
   },
   {
    "ticker": "U",
    "name": "Unity Software Inc.",
-   "composite_score": 73.03,
+   "composite_score": 72.82,
    "passes_filter": true,
    "tech_score": 72.75,
    "fund_score": 62.3,
    "valuation_score": 95,
    "prediction_return_pct": 24.56,
-   "news_score": 57.63
+   "news_score": 55.54
   },
   {
    "ticker": "AMAT",
    "name": "Applied Materials, Inc.",
-   "composite_score": 72.62,
+   "composite_score": 72.58,
    "passes_filter": true,
    "tech_score": 57.0,
    "fund_score": 92.0,
    "valuation_score": 95,
    "prediction_return_pct": 15.72,
-   "news_score": 33.75
+   "news_score": 33.25
   },
   {
    "ticker": "ADBE",
@@ -1490,37 +1510,15 @@
    "news_score": 45.64
   },
   {
-   "ticker": "AVGO",
-   "name": "Broadcom Inc.",
-   "composite_score": 72.21,
-   "passes_filter": true,
-   "tech_score": 66.75,
-   "fund_score": 91.5,
-   "valuation_score": 70,
-   "prediction_return_pct": 6.75,
-   "news_score": 56.49
-  },
-  {
-   "ticker": "MSFT",
-   "name": "Microsoft Corporation",
-   "composite_score": 71.48,
-   "passes_filter": true,
-   "tech_score": 59.25,
-   "fund_score": 86.3,
-   "valuation_score": 95,
-   "prediction_return_pct": 3.82,
-   "news_score": 45.95
-  },
-  {
    "ticker": "INTU",
    "name": "Intuit Inc.",
-   "composite_score": 71.31,
+   "composite_score": 71.27,
    "passes_filter": true,
    "tech_score": 60.25,
    "fund_score": 76.3,
    "valuation_score": 95,
    "prediction_return_pct": 8.34,
-   "news_score": 36.75
+   "news_score": 36.3
   },
   {
    "ticker": "IBM",
@@ -1542,7 +1540,7 @@
    "fund_score": 92.5,
    "valuation_score": 95,
    "prediction_return_pct": 64.01,
-   "news_score": 39.18
+   "news_score": 39.19
   },
   {
    "ticker": "KLAC",
@@ -1556,6 +1554,17 @@
    "news_score": 41.96
   },
   {
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "composite_score": 70.54,
+   "passes_filter": true,
+   "tech_score": 59.25,
+   "fund_score": 86.3,
+   "valuation_score": 85,
+   "prediction_return_pct": 3.82,
+   "news_score": 41.54
+  },
+  {
    "ticker": "TTD",
    "name": "The Trade Desk, Inc.",
    "composite_score": 69.86,
@@ -1565,6 +1574,17 @@
    "valuation_score": 95,
    "prediction_return_pct": -0.41,
    "news_score": 67.84
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML Holding N.V.",
+   "composite_score": 69.48,
+   "passes_filter": true,
+   "tech_score": 55.25,
+   "fund_score": 89.5,
+   "valuation_score": 85,
+   "prediction_return_pct": 9.81,
+   "news_score": 17.96
   },
   {
    "ticker": "ZM",
@@ -1578,92 +1598,81 @@
    "news_score": 56.78
   },
   {
-   "ticker": "ASML",
-   "name": "ASML Holding N.V.",
-   "composite_score": 69.43,
-   "passes_filter": true,
-   "tech_score": 55.25,
-   "fund_score": 89.5,
-   "valuation_score": 85,
-   "prediction_return_pct": 9.81,
-   "news_score": 17.44
-  },
-  {
-   "ticker": "BIDU",
-   "name": "Baidu, Inc.",
-   "composite_score": 68.0,
-   "passes_filter": true,
-   "tech_score": 54.5,
-   "fund_score": 64.8,
-   "valuation_score": 95,
-   "prediction_return_pct": 35.02,
-   "news_score": 46.78
-  },
-  {
    "ticker": "MRVL",
    "name": "Marvell Technology, Inc.",
-   "composite_score": 67.32,
+   "composite_score": 68.87,
    "passes_filter": true,
    "tech_score": 55.25,
    "fund_score": 92.0,
    "valuation_score": 85,
    "prediction_return_pct": 0.92,
-   "news_score": 20.12
+   "news_score": 35.6
   },
   {
-   "ticker": "DIS",
-   "name": "The Walt Disney Company",
-   "composite_score": 67.02,
+   "ticker": "BIDU",
+   "name": "Baidu, Inc.",
+   "composite_score": 68.16,
    "passes_filter": true,
-   "tech_score": 71.0,
-   "fund_score": 61.5,
-   "valuation_score": 55,
-   "prediction_return_pct": 10.58,
-   "news_score": 58.97
+   "tech_score": 54.5,
+   "fund_score": 64.8,
+   "valuation_score": 95,
+   "prediction_return_pct": 35.02,
+   "news_score": 48.35
   },
   {
    "ticker": "ESTC",
    "name": "Elastic N.V.",
-   "composite_score": 66.68,
+   "composite_score": 66.86,
    "passes_filter": false,
    "tech_score": 60.25,
    "fund_score": 76.3,
    "valuation_score": 95,
    "prediction_return_pct": -8.84,
-   "news_score": 40.46
-  },
-  {
-   "ticker": "PATH",
-   "name": "UiPath, Inc.",
-   "composite_score": 66.05,
-   "passes_filter": true,
-   "tech_score": 61.25,
-   "fund_score": 82.8,
-   "valuation_score": 50,
-   "prediction_return_pct": 39.32,
-   "news_score": 55.38
+   "news_score": 42.26
   },
   {
    "ticker": "DELL",
    "name": "Dell Technologies Inc.",
-   "composite_score": 65.62,
+   "composite_score": 66.07,
    "passes_filter": true,
    "tech_score": 55.25,
    "fund_score": 69.0,
    "valuation_score": 95,
    "prediction_return_pct": 2.45,
-   "news_score": 40.57
+   "news_score": 45.11
+  },
+  {
+   "ticker": "DIS",
+   "name": "The Walt Disney Company",
+   "composite_score": 65.69,
+   "passes_filter": true,
+   "tech_score": 71.0,
+   "fund_score": 61.5,
+   "valuation_score": 55,
+   "prediction_return_pct": 10.58,
+   "news_score": 45.64
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology, Inc.",
+   "composite_score": 65.59,
+   "passes_filter": true,
+   "tech_score": 55.25,
+   "fund_score": 93.5,
+   "valuation_score": 50,
+   "prediction_return_pct": 7.25,
+   "news_score": 39.03
   },
   {
    "ticker": "VRT",
    "name": "Vertiv Holdings Co",
-   "composite_score": 65.35,
+   "composite_score": 65.15,
    "passes_filter": false,
    "tech_score": 47.25,
    "fund_score": 83.0,
    "valuation_score": 85,
    "prediction_return_pct": 0.29,
-   "news_score": 42.84
+   "news_score": 40.86
   },
   {
    "ticker": "NFLX",
@@ -1679,57 +1688,46 @@
   {
    "ticker": "WDAY",
    "name": "Workday, Inc.",
-   "composite_score": 64.06,
+   "composite_score": 63.63,
    "passes_filter": false,
    "tech_score": 66.25,
    "fund_score": 72.3,
    "valuation_score": 85,
    "prediction_return_pct": -5.83,
-   "news_score": 29.21
-  },
-  {
-   "ticker": "GOOGL",
-   "name": "Alphabet Inc.",
-   "composite_score": 63.73,
-   "passes_filter": true,
-   "tech_score": 57.0,
-   "fund_score": 79.3,
-   "valuation_score": 50,
-   "prediction_return_pct": 13.26,
-   "news_score": 51.56
+   "news_score": 24.94
   },
   {
    "ticker": "SONY",
    "name": "Sony Group Corporation",
-   "composite_score": 62.95,
+   "composite_score": 62.93,
    "passes_filter": false,
    "tech_score": 64.25,
    "fund_score": 68.5,
    "valuation_score": 85,
    "prediction_return_pct": -7.26,
-   "news_score": 47.59
+   "news_score": 47.39
   },
   {
-   "ticker": "MU",
-   "name": "Micron Technology, Inc.",
-   "composite_score": 62.82,
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc.",
+   "composite_score": 62.64,
    "passes_filter": true,
-   "tech_score": 55.25,
-   "fund_score": 93.5,
+   "tech_score": 57.0,
+   "fund_score": 79.3,
    "valuation_score": 50,
-   "prediction_return_pct": 7.25,
-   "news_score": 26.33
+   "prediction_return_pct": 13.26,
+   "news_score": 40.64
   },
   {
    "ticker": "CRM",
    "name": "Salesforce, Inc.",
-   "composite_score": 62.1,
+   "composite_score": 61.94,
    "passes_filter": true,
    "tech_score": 62.5,
    "fund_score": 71.8,
    "valuation_score": 50,
    "prediction_return_pct": 27.57,
-   "news_score": 15.29
+   "news_score": 13.62
   },
   {
    "ticker": "DUOL",
@@ -1776,81 +1774,103 @@
    "news_score": 53.76
   },
   {
-   "ticker": "SHOP",
-   "name": "Shopify Inc.",
-   "composite_score": 60.56,
-   "passes_filter": true,
-   "tech_score": 59.5,
-   "fund_score": 88.8,
-   "valuation_score": 25,
-   "prediction_return_pct": 19.65,
-   "news_score": 39.82
-  },
-  {
-   "ticker": "WDC",
-   "name": "Western Digital Corporation",
-   "composite_score": 60.05,
-   "passes_filter": false,
-   "tech_score": 48.25,
-   "fund_score": 89.5,
-   "valuation_score": 50,
-   "prediction_return_pct": 5.38,
-   "news_score": 26.13
-  },
-  {
-   "ticker": "AAPL",
-   "name": "Apple Inc.",
-   "composite_score": 59.21,
-   "passes_filter": true,
-   "tech_score": 74.75,
-   "fund_score": 77.5,
-   "valuation_score": 25,
-   "prediction_return_pct": 2.21,
-   "news_score": 46.49
-  },
-  {
    "ticker": "AMD",
    "name": "Advanced Micro Devices, Inc.",
-   "composite_score": 58.53,
+   "composite_score": 61.41,
    "passes_filter": true,
    "tech_score": 63.0,
    "fund_score": 89.0,
    "valuation_score": 25,
    "prediction_return_pct": 0.44,
-   "news_score": 40.32
+   "news_score": 69.09
   },
   {
-   "ticker": "HUBS",
-   "name": "HubSpot, Inc.",
-   "composite_score": 57.15,
+   "ticker": "SHOP",
+   "name": "Shopify Inc.",
+   "composite_score": 60.67,
    "passes_filter": true,
-   "tech_score": 54.25,
-   "fund_score": 78.8,
-   "valuation_score": 40,
-   "prediction_return_pct": 14.3,
-   "news_score": 28.92
+   "tech_score": 59.5,
+   "fund_score": 88.8,
+   "valuation_score": 25,
+   "prediction_return_pct": 19.65,
+   "news_score": 40.96
+  },
+  {
+   "ticker": "WDC",
+   "name": "Western Digital Corporation",
+   "composite_score": 60.18,
+   "passes_filter": false,
+   "tech_score": 48.25,
+   "fund_score": 89.5,
+   "valuation_score": 50,
+   "prediction_return_pct": 5.38,
+   "news_score": 27.42
   },
   {
    "ticker": "SMCI",
    "name": "Super Micro Computer, Inc.",
-   "composite_score": 56.64,
+   "composite_score": 59.48,
    "passes_filter": false,
    "tech_score": 55.25,
    "fund_score": 81.0,
    "valuation_score": 50,
    "prediction_return_pct": -9.81,
-   "news_score": 45.76
+   "news_score": 59.2
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple Inc.",
+   "composite_score": 57.92,
+   "passes_filter": true,
+   "tech_score": 74.75,
+   "fund_score": 77.5,
+   "valuation_score": 25,
+   "prediction_return_pct": 2.21,
+   "news_score": 33.56
+  },
+  {
+   "ticker": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "composite_score": 57.66,
+   "passes_filter": true,
+   "tech_score": 63.0,
+   "fund_score": 51.3,
+   "valuation_score": 50,
+   "prediction_return_pct": 15.42,
+   "news_score": 60.81
+  },
+  {
+   "ticker": "HUBS",
+   "name": "HubSpot, Inc.",
+   "composite_score": 56.87,
+   "passes_filter": true,
+   "tech_score": 54.25,
+   "fund_score": 78.8,
+   "valuation_score": 40,
+   "prediction_return_pct": 14.3,
+   "news_score": 26.11
   },
   {
    "ticker": "TSLA",
    "name": "Tesla, Inc.",
-   "composite_score": 55.76,
+   "composite_score": 56.81,
    "passes_filter": true,
    "tech_score": 52.25,
    "fund_score": 53.0,
    "valuation_score": 50,
    "prediction_return_pct": 15.76,
-   "news_score": 49.48
+   "news_score": 60.02
+  },
+  {
+   "ticker": "SNAP",
+   "name": "Snap Inc.",
+   "composite_score": 55.32,
+   "passes_filter": false,
+   "tech_score": 57.25,
+   "fund_score": 59.5,
+   "valuation_score": 50,
+   "prediction_return_pct": -4.81,
+   "news_score": 36.35
   },
   {
    "ticker": "SPOT",
@@ -1864,48 +1884,37 @@
    "news_score": 53.36
   },
   {
-   "ticker": "SNAP",
-   "name": "Snap Inc.",
-   "composite_score": 55.2,
-   "passes_filter": false,
-   "tech_score": 57.25,
-   "fund_score": 59.5,
-   "valuation_score": 50,
-   "prediction_return_pct": -4.81,
-   "news_score": 35.12
-  },
-  {
-   "ticker": "CRWV",
-   "name": "CoreWeave, Inc.",
-   "composite_score": 55.16,
-   "passes_filter": true,
-   "tech_score": 62.25,
-   "fund_score": 51.3,
-   "valuation_score": 50,
-   "prediction_return_pct": 15.42,
-   "news_score": 37.72
-  },
-  {
    "ticker": "MDB",
    "name": "MongoDB, Inc.",
-   "composite_score": 54.55,
+   "composite_score": 54.53,
    "passes_filter": true,
    "tech_score": 55.25,
    "fund_score": 66.3,
    "valuation_score": 25,
    "prediction_return_pct": 35.92,
-   "news_score": 46.63
+   "news_score": 46.4
   },
   {
    "ticker": "NOW",
    "name": "ServiceNow, Inc.",
-   "composite_score": 54.49,
+   "composite_score": 54.39,
    "passes_filter": false,
    "tech_score": 57.25,
    "fund_score": 66.3,
    "valuation_score": 55,
    "prediction_return_pct": -7.27,
-   "news_score": 31.07
+   "news_score": 30.07
+  },
+  {
+   "ticker": "ORCL",
+   "name": "Oracle Corporation",
+   "composite_score": 54.08,
+   "passes_filter": false,
+   "tech_score": 45.75,
+   "fund_score": 80.3,
+   "valuation_score": 50,
+   "prediction_return_pct": -9.12,
+   "news_score": 45.72
   },
   {
    "ticker": "DDOG",
@@ -1917,28 +1926,6 @@
    "valuation_score": 25,
    "prediction_return_pct": -23.94,
    "news_score": 45.26
-  },
-  {
-   "ticker": "ORCL",
-   "name": "Oracle Corporation",
-   "composite_score": 53.67,
-   "passes_filter": false,
-   "tech_score": 45.75,
-   "fund_score": 80.3,
-   "valuation_score": 50,
-   "prediction_return_pct": -9.12,
-   "news_score": 41.53
-  },
-  {
-   "ticker": "S",
-   "name": "SentinelOne, Inc.",
-   "composite_score": 52.79,
-   "passes_filter": false,
-   "tech_score": 60.25,
-   "fund_score": 56.3,
-   "valuation_score": 55,
-   "prediction_return_pct": -5.37,
-   "news_score": 46.53
   },
   {
    "ticker": "SOUN",
@@ -1954,35 +1941,35 @@
   {
    "ticker": "ARM",
    "name": "Arm Holdings plc",
-   "composite_score": 52.48,
+   "composite_score": 52.54,
    "passes_filter": false,
    "tech_score": 64.0,
    "fund_score": 77.0,
    "valuation_score": 25,
    "prediction_return_pct": -12.46,
-   "news_score": 27.27
+   "news_score": 27.93
   },
   {
    "ticker": "NET",
    "name": "Cloudflare, Inc.",
-   "composite_score": 52.41,
+   "composite_score": 52.38,
    "passes_filter": true,
    "tech_score": 62.25,
    "fund_score": 58.3,
    "valuation_score": 25,
    "prediction_return_pct": 8.99,
-   "news_score": 42.77
+   "news_score": 42.44
   },
   {
-   "ticker": "GTLB",
-   "name": "GitLab Inc.",
-   "composite_score": 52.18,
+   "ticker": "PINS",
+   "name": "Pinterest, Inc.",
+   "composite_score": 52.35,
    "passes_filter": false,
-   "tech_score": 59.5,
-   "fund_score": 60.3,
-   "valuation_score": 55,
-   "prediction_return_pct": -15.36,
-   "news_score": 32.3
+   "tech_score": 48.25,
+   "fund_score": 68.5,
+   "valuation_score": 25,
+   "prediction_return_pct": 9.63,
+   "news_score": 51.66
   },
   {
    "ticker": "TEAM",
@@ -1996,15 +1983,26 @@
    "news_score": 56.38
   },
   {
-   "ticker": "PINS",
-   "name": "Pinterest, Inc.",
-   "composite_score": 52.15,
+   "ticker": "S",
+   "name": "SentinelOne, Inc.",
+   "composite_score": 51.73,
    "passes_filter": false,
-   "tech_score": 48.25,
-   "fund_score": 68.5,
-   "valuation_score": 25,
-   "prediction_return_pct": 9.63,
-   "news_score": 49.6
+   "tech_score": 60.25,
+   "fund_score": 56.3,
+   "valuation_score": 55,
+   "prediction_return_pct": -5.37,
+   "news_score": 35.97
+  },
+  {
+   "ticker": "GTLB",
+   "name": "GitLab Inc.",
+   "composite_score": 51.39,
+   "passes_filter": false,
+   "tech_score": 59.5,
+   "fund_score": 60.3,
+   "valuation_score": 55,
+   "prediction_return_pct": -15.36,
+   "news_score": 24.39
   },
   {
    "ticker": "SNOW",

@@ -1,11 +1,11 @@
 {
-  "snapshot_time": "2026-11-17T21:59:44",
+  "snapshot_time": "2026-11-18T03:28:45",
   "summary": {
-    "total_recommendations": 42,
+    "total_recommendations": 45,
     "completed_1m": 27,
     "date_range": {
       "first": "2026-04-21",
-      "last": "2026-11-17"
+      "last": "2026-11-18"
     }
   },
   "aggregate": {
@@ -542,7 +542,7 @@
         "contribution": 0.011677
       },
       "APP": {
-        "picks": 4,
+        "picks": 5,
         "avg_return_1m": null,
         "contribution": 0.003236
       },
@@ -577,7 +577,7 @@
         "contribution": -0.096811
       },
       "TSM": {
-        "picks": 11,
+        "picks": 12,
         "avg_return_1m": 0.06250914285714286,
         "contribution": -0.104789
       },
