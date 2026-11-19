@@ -1,15 +1,15 @@
 {
-  "snapshot_time": "2026-11-18T13:39:39",
+  "snapshot_time": "2026-11-19T13:39:38",
   "summary": {
-    "total_recommendations": 45,
+    "total_recommendations": 48,
     "completed_1m": 27,
     "date_range": {
       "first": "2026-04-21",
-      "last": "2026-11-18"
+      "last": "2026-11-19"
     }
   },
   "aggregate": {
-    "avg_return_1d": 0.016772410256410256,
+    "avg_return_1d": 0.015193309523809524,
     "avg_return_1w": 0.07661186666666667,
     "avg_return_2w": 0.11774725925925926,
     "avg_return_1m": 0.21298974074074073,
@@ -58,13 +58,13 @@
     }
   ],
   "cumulative": {
-    "strategy_cumulative_return": 0.284407,
-    "spy_cumulative_return": 0.040279,
-    "outperformance": 0.244128,
-    "trading_days": 147,
+    "strategy_cumulative_return": 0.280669,
+    "spy_cumulative_return": 0.037098,
+    "outperformance": 0.243571,
+    "trading_days": 148,
     "date_range": {
       "start": "2026-04-21",
-      "end": "2026-11-17"
+      "end": "2026-11-18"
     },
     "strategy_equity_curve": [
       0.0,
@@ -213,7 +213,8 @@
       0.352574,
       0.359252,
       0.32238,
-      0.284407
+      0.284407,
+      0.280669
     ],
     "spy_equity_curve": [
       0.0,
@@ -362,7 +363,8 @@
       0.075332,
       0.071427,
       0.050946,
-      0.040279
+      0.040279,
+      0.037098
     ],
     "dates": [
       "2026-04-21",
@@ -511,7 +513,8 @@
       "2026-11-12",
       "2026-11-13",
       "2026-11-16",
-      "2026-11-17"
+      "2026-11-17",
+      "2026-11-18"
     ]
   },
   "concentration": {
@@ -519,78 +522,83 @@
       "MU": {
         "picks": 6,
         "avg_return_1m": 0.8632011666666667,
-        "contribution": 0.281885
+        "contribution": 0.281065
       },
       "WDC": {
         "picks": 3,
         "avg_return_1m": 0.13002766666666668,
-        "contribution": 0.047908
+        "contribution": 0.047768
       },
       "LRCX": {
-        "picks": 1,
+        "picks": 2,
         "avg_return_1m": null,
-        "contribution": 0.018048
-      },
-      "NVDA": {
-        "picks": 1,
-        "avg_return_1m": -0.005891,
-        "contribution": 0.012231
+        "contribution": 0.01868
       },
       "GOOGL": {
         "picks": 3,
         "avg_return_1m": 0.0024090000000000006,
-        "contribution": 0.011677
+        "contribution": 0.012635
       },
-      "APP": {
-        "picks": 5,
-        "avg_return_1m": null,
-        "contribution": 0.003236
-      },
-      "AMAT": {
+      "NVDA": {
         "picks": 1,
-        "avg_return_1m": null,
-        "contribution": 0.003102
-      },
-      "U": {
-        "picks": 1,
-        "avg_return_1m": null,
-        "contribution": 0.0015
-      },
-      "INTU": {
-        "picks": 1,
-        "avg_return_1m": null,
-        "contribution": 0.000579
+        "avg_return_1m": -0.005891,
+        "contribution": 0.012196
       },
       "AMZN": {
         "picks": 1,
         "avg_return_1m": null,
-        "contribution": 0.000479
+        "contribution": 0.004247
+      },
+      "AMAT": {
+        "picks": 1,
+        "avg_return_1m": null,
+        "contribution": 0.004164
+      },
+      "META": {
+        "picks": 2,
+        "avg_return_1m": null,
+        "contribution": -0.000102
+      },
+      "U": {
+        "picks": 1,
+        "avg_return_1m": null,
+        "contribution": -0.000785
+      },
+      "INTU": {
+        "picks": 1,
+        "avg_return_1m": null,
+        "contribution": -0.001314
+      },
+      "APP": {
+        "picks": 5,
+        "avg_return_1m": null,
+        "contribution": -0.004795
       },
       "PATH": {
         "picks": 1,
         "avg_return_1m": -0.019481,
-        "contribution": -0.065224
+        "contribution": -0.065034
       },
       "SMCI": {
         "picks": 1,
         "avg_return_1m": -0.426613,
-        "contribution": -0.096811
+        "contribution": -0.096529
       },
       "TSM": {
-        "picks": 12,
+        "picks": 13,
         "avg_return_1m": 0.06250914285714286,
-        "contribution": -0.104789
+        "contribution": -0.098898
       },
       "MSFT": {
         "picks": 6,
         "avg_return_1m": 0.03183933333333333,
-        "contribution": -0.114476
+        "contribution": -0.114142
       }
     },
     "top_contributor": {
       "ticker": "MU",
-      "contribution": 0.281885,
-      "share_of_outperformance": 1.1547,
+      "contribution": 0.281065,
+      "share_of_outperformance": 1.1539,
       "picks": 6
     },
     "concentration_warning": "Performance is highly concentrated in one name, so the sample is a weak representation"
